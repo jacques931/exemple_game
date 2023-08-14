@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5192f8e73265f7f43a3ce3761c57c0f5, type: 3}
+  m_Name: TerrainDatabase
+  m_EditorClassIdentifier: 
+  terrain:
+  - id: 0
+    name: Ville
+    terrainPrefs: {fileID: 5501441654687260772, guid: 0ce202dc04a42a84695c9f6be234a59c, type: 3}
+    sprite: {fileID: 0}
+  - id: 1
+    name: Ratking Catacombs
+    terrainPrefs: {fileID: 3678083435781964829, guid: 72bc2d3e9d28c4145a109cc14e8d5d93, type: 3}
+    sprite: {fileID: 21300000, guid: 03585dd0496217f48ac101988cf46e76, type: 3}
+  - id: 2
+    name: Foliage Enclave
+    terrainPrefs: {fileID: 6027095644866086138, guid: 2ecd4c9c5ae37544084b4a4925d18433, type: 3}
+    sprite: {fileID: 21300000, guid: 4bb100c4c81d213429e4733a533eb9eb, type: 3}
+  - id: 3
+    name: Whisperwood Sanctum
+    terrainPrefs: {fileID: 6995127361878809671, guid: 117a53df5086e4b4b902563bda141667, type: 3}
+    sprite: {fileID: 21300000, guid: 1537d68376ea57846b2ba38733dfbe9f, type: 3}
+  - id: 4
+    name: Whispertree Maze
+    terrainPrefs: {fileID: 4877677058573684287, guid: f21e5c2f5bc3b9c4eb161c5b326cd597, type: 3}
+    sprite: {fileID: 21300000, guid: 4e265847b6db0d74d86abf0e1d446def, type: 3}
+  - id: 5
+    name: Graveyard Crypt
+    terrainPrefs: {fileID: 7100666631970066519, guid: f9de2b3cdc978e1499e9e3919fce61d1, type: 3}
+    sprite: {fileID: 21300000, guid: c79fbe24fca5e7249a949ea834ccccaa, type: 3}
+  - id: 6
+    name: Snowfall Citadel
+    terrainPrefs: {fileID: 2713645042160521014, guid: c503ee23517ee96489d8304b8f4d181c, type: 3}
+    sprite: {fileID: 21300000, guid: 43db023397d026f488fb565b7fb0148a, type: 3}
+  - id: 7
+    name: Volcanic Citadel
+    terrainPrefs: {fileID: 7706985400626748429, guid: 3fd22cf5d2d1de74b97f28ea46dda723, type: 3}
+    sprite: {fileID: 21300000, guid: c63e7c1097a762f4591299ff479229fb, type: 3}
+  - id: 8
+    name: Felplague Aviary
+    terrainPrefs: {fileID: 7283637561974033437, guid: ace7a79a3eafb1141a485789d6401157, type: 3}
+    sprite: {fileID: 21300000, guid: aebfe4f075c364349aea5b57ba628ff1, type: 3}
+  - id: 9
+    name: Cursed Catacombs
+    terrainPrefs: {fileID: 242468584819248058, guid: 56108ba778ba95c46af07646b43c9831, type: 3}
+    sprite: {fileID: 21300000, guid: c79fbe24fca5e7249a949ea834ccccaa, type: 3}
+  - id: 10
+    name: Murkstone Sanctum
+    terrainPrefs: {fileID: 3407639495534147567, guid: 236eac8e762137848b9d4f09cb2e3347, type: 3}
+    sprite: {fileID: 21300000, guid: 5939c00588d62cd41922b8162bee8cdd, type: 3}
+  - id: 11
+    name: Underdark Sanctum
+    terrainPrefs: {fileID: 3836865685499848029, guid: 373bd58922501664d81ebe442ec88a6a, type: 3}
+    sprite: {fileID: 21300000, guid: 44edfaff9f6e0a4448b262efae82eb79, type: 3}
+  - id: 12
+    name: Ancient Pillarhold
+    terrainPrefs: {fileID: 6037603155547131882, guid: ee4a460fe075e0541882c4874d2db204, type: 3}
+    sprite: {fileID: 21300000, guid: 7cd0d42580002c44eabf46a96411a76d, type: 3}
+  - id: 13
+    name: Nightshade Sand Sanctum
+    terrainPrefs: {fileID: 7253546471092307539, guid: 3952e95344e5a5745b73b76bbe911c76, type: 3}
+    sprite: {fileID: 21300000, guid: e18f8047793778a4dac549798248052b, type: 3}
+  - id: 14
+    name: Emberwing Stronghold
+    terrainPrefs: {fileID: 6507839644440515517, guid: fae0eb6f46b69d94d8ff774fce0734d6, type: 3}
+    sprite: {fileID: 21300000, guid: c63e7c1097a762f4591299ff479229fb, type: 3}

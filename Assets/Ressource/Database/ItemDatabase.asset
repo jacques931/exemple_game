@@ -1,0 +1,1870 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 942d58ec9a0665540a2af8de41458b3e, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: 
+  item:
+  - name: 
+    id: 0
+    isActive: 1
+    rarity: 0
+    itemType: 0
+    icon: {fileID: 0}
+    description: 
+    price: 0
+    maxAmount: 0
+    amount: 1
+    dropChance: 0
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Seed of life
+    id: 1
+    isActive: 1
+    rarity: 2
+    itemType: 6
+    icon: {fileID: 21300000, guid: 78b93a31e0a024f96b2a83d40dac8271, type: 3}
+    description: A rare seed that brings the entire team of monsters back to life
+      in the dungeon.
+    price: 100
+    maxAmount: 99
+    amount: 0
+    dropChance: 5
+    itemEffect: []
+    isInShop: 1
+    priceInShop: 10000
+  - name: Pokeball
+    id: 2
+    isActive: 1
+    rarity: 0
+    itemType: 5
+    icon: {fileID: 5311083760174518918, guid: e0214c5a252b4c3459938afbd2d4a9ad, type: 3}
+    description: A magical sphere that captures a monster and stores it in another
+      dimension.
+    price: 10
+    maxAmount: 99
+    amount: 4
+    dropChance: 5
+    itemEffect:
+    - effect: 9
+      valueEffect: 0
+      timeEffect: 0
+    isInShop: 1
+    priceInShop: 150
+  - name: Super Ball
+    id: 3
+    isActive: 1
+    rarity: 0
+    itemType: 5
+    icon: {fileID: 5888315422345105727, guid: e0214c5a252b4c3459938afbd2d4a9ad, type: 3}
+    description: A magical sphere that captures a monster and stores it in another
+      dimension.
+    price: 10
+    maxAmount: 99
+    amount: 3
+    dropChance: 5
+    itemEffect:
+    - effect: 9
+      valueEffect: 1
+      timeEffect: 0
+    isInShop: 1
+    priceInShop: 300
+  - name: Masse Ball
+    id: 4
+    isActive: 1
+    rarity: 1
+    itemType: 5
+    icon: {fileID: -3576956593141714279, guid: e0214c5a252b4c3459938afbd2d4a9ad, type: 3}
+    description: A magical sphere that captures a monster and stores it in another
+      dimension.
+    price: 10
+    maxAmount: 99
+    amount: 0
+    dropChance: 5
+    itemEffect:
+    - effect: 9
+      valueEffect: 2
+      timeEffect: 0
+    isInShop: 0
+    priceInShop: 0
+  - name: Honor Ball
+    id: 5
+    isActive: 1
+    rarity: 1
+    itemType: 5
+    icon: {fileID: 4781968803287986316, guid: e0214c5a252b4c3459938afbd2d4a9ad, type: 3}
+    description: A magical sphere that captures a monster and stores it in another
+      dimension.
+    price: 10
+    maxAmount: 99
+    amount: 0
+    dropChance: 0
+    itemEffect:
+    - effect: 9
+      valueEffect: 3
+      timeEffect: 0
+    isInShop: 0
+    priceInShop: 0
+  - name: Rapide Ball
+    id: 6
+    isActive: 1
+    rarity: 2
+    itemType: 5
+    icon: {fileID: 3517281720477641126, guid: e0214c5a252b4c3459938afbd2d4a9ad, type: 3}
+    description: A rapide magical sphere that captures a monster and stores it in
+      another dimension.
+    price: 10
+    maxAmount: 99
+    amount: 3
+    dropChance: 0
+    itemEffect:
+    - effect: 9
+      valueEffect: 4
+      timeEffect: 0
+    isInShop: 0
+    priceInShop: 0
+  - name: Hyper Ball
+    id: 7
+    isActive: 1
+    rarity: 2
+    itemType: 5
+    icon: {fileID: 724933104740771742, guid: e0214c5a252b4c3459938afbd2d4a9ad, type: 3}
+    description: A magical sphere that captures a monster and stores it in another
+      dimension.
+    price: 10
+    maxAmount: 99
+    amount: 0
+    dropChance: 3
+    itemEffect:
+    - effect: 9
+      valueEffect: 5
+      timeEffect: 0
+    isInShop: 1
+    priceInShop: 40000
+  - name: Lune Ball
+    id: 8
+    isActive: 1
+    rarity: 2
+    itemType: 5
+    icon: {fileID: 5371866471718008748, guid: e0214c5a252b4c3459938afbd2d4a9ad, type: 3}
+    description: An astral sphere that captures and propels monsters into distant
+      stars.
+    price: 20
+    maxAmount: 99
+    amount: 0
+    dropChance: 0
+    itemEffect:
+    - effect: 9
+      valueEffect: 6
+      timeEffect: 0
+    isInShop: 0
+    priceInShop: 0
+  - name: Scuba Ball
+    id: 9
+    isActive: 1
+    rarity: 2
+    itemType: 5
+    icon: {fileID: -6686840648376083744, guid: e0214c5a252b4c3459938afbd2d4a9ad, type: 3}
+    description: A magical sphere that captures a monster and stores it in another
+      dimension.
+    price: 20
+    maxAmount: 99
+    amount: 0
+    dropChance: 4
+    itemEffect:
+    - effect: 9
+      valueEffect: 7
+      timeEffect: 0
+    isInShop: 0
+    priceInShop: 0
+  - name: GS Ball
+    id: 10
+    isActive: 1
+    rarity: 3
+    itemType: 5
+    icon: {fileID: -7294465251024053427, guid: e0214c5a252b4c3459938afbd2d4a9ad, type: 3}
+    description: A potent sphere that enslaves monsters, imprisoning them beyond
+      our spacetime.
+    price: 20
+    maxAmount: 99
+    amount: 0
+    dropChance: 0
+    itemEffect:
+    - effect: 9
+      valueEffect: 8
+      timeEffect: 0
+    isInShop: 0
+    priceInShop: 0
+  - name: Starry Ball
+    id: 11
+    isActive: 1
+    rarity: 3
+    itemType: 5
+    icon: {fileID: -6540262881156913281, guid: e0214c5a252b4c3459938afbd2d4a9ad, type: 3}
+    description: An astral sphere that captures and propels monsters into distant
+      stars.
+    price: 20
+    maxAmount: 99
+    amount: 5
+    dropChance: 0
+    itemEffect:
+    - effect: 9
+      valueEffect: 9
+      timeEffect: 0
+    isInShop: 0
+    priceInShop: 0
+  - name: Sombre Ball
+    id: 12
+    isActive: 1
+    rarity: 3
+    itemType: 5
+    icon: {fileID: -9103666052561205923, guid: e0214c5a252b4c3459938afbd2d4a9ad, type: 3}
+    description: A sinister artifact that entwines monsters in darkness, relegating
+      them to a parallel plane of existence.
+    price: 20
+    maxAmount: 99
+    amount: 0
+    dropChance: 0
+    itemEffect:
+    - effect: 9
+      valueEffect: 10
+      timeEffect: 0
+    isInShop: 0
+    priceInShop: 0
+  - name: Master Ball
+    id: 13
+    isActive: 1
+    rarity: 4
+    itemType: 5
+    icon: {fileID: 3784619658839396737, guid: e0214c5a252b4c3459938afbd2d4a9ad, type: 3}
+    description: The ultimate artifact that merges worlds, enabling the capture of
+      monsters and their immersion into the infinite.
+    price: 20
+    maxAmount: 1
+    amount: 0
+    dropChance: 0
+    itemEffect:
+    - effect: 9
+      valueEffect: 11
+      timeEffect: 0
+    isInShop: 0
+    priceInShop: 0
+  - name: Life Potion
+    id: 14
+    isActive: 1
+    rarity: 0
+    itemType: 0
+    icon: {fileID: 21300000, guid: abcf74e1d10656842af1b13cefdfbe23, type: 3}
+    description: A vial containing a luminous and sparkling liquid. This basic life
+      potion gradually restores the health of the consumer, dispelling fatigue and
+      healing minor wounds.
+    price: 5
+    maxAmount: 99
+    amount: 0
+    dropChance: 0
+    itemEffect:
+    - effect: 1
+      valueEffect: 5
+      timeEffect: 0
+    isInShop: 1
+    priceInShop: 100
+  - name: Medium Life Potion
+    id: 15
+    isActive: 1
+    rarity: 1
+    itemType: 0
+    icon: {fileID: 21300000, guid: 3ac254c0fa6214047a1df59938ba786f, type: 3}
+    description: A modest vial holding a soothing fluid. This intermediate-level
+      life potion restores the consumer's health in a balanced manner, promoting
+      swift recovery and healing of moderate wounds.
+    price: 10
+    maxAmount: 99
+    amount: 0
+    dropChance: 0
+    itemEffect:
+    - effect: 1
+      valueEffect: 50
+      timeEffect: 0
+    isInShop: 1
+    priceInShop: 350
+  - name: Great Potion of Life
+    id: 16
+    isActive: 1
+    rarity: 2
+    itemType: 0
+    icon: {fileID: 21300000, guid: 6dc5762501dd2df4da399f6c16a85907, type: 3}
+    description: An elegant vial containing a radiant elixir. This potent potion
+      of life swiftly and effectively restores the drinker's health, rejuvenating
+      vital energy and healing moderate wounds.
+    price: 15
+    maxAmount: 99
+    amount: 0
+    dropChance: 0
+    itemEffect:
+    - effect: 1
+      valueEffect: 700
+      timeEffect: 0
+    isInShop: 1
+    priceInShop: 8000
+  - name: Liquor of Life
+    id: 17
+    isActive: 1
+    rarity: 3
+    itemType: 0
+    icon: {fileID: 21300000, guid: ee1724ab630d24cebb282289abcf17e1, type: 3}
+    description: An ornate bottle containing a sparkling liquid. This rare and mystical
+      elixir is renowned for astonishingly restoring the drinker's vitality and vigor
+    price: 15
+    maxAmount: 99
+    amount: 0
+    dropChance: 0
+    itemEffect:
+    - effect: 1
+      valueEffect: 5000
+      timeEffect: 0
+    isInShop: 0
+    priceInShop: 0
+  - name: Supreme Elixir
+    id: 18
+    isActive: 1
+    rarity: 4
+    itemType: 0
+    icon: {fileID: 21300000, guid: f968827812fe04383ae1f660560652d0, type: 3}
+    description: A gem-studded vial containing a liquid of dazzling purity. This
+      exceptional elixir bestows swift and complete health regeneration, erasing
+      wounds and eliminating any negative afflictions.
+    price: 100
+    maxAmount: 99
+    amount: 10
+    dropChance: 0
+    itemEffect:
+    - effect: 1
+      valueEffect: 100000
+      timeEffect: 0
+    isInShop: 0
+    priceInShop: 0
+  - name: Defender's Amulet
+    id: 19
+    isActive: 1
+    rarity: 1
+    itemType: 0
+    icon: {fileID: 21300000, guid: c928c51f414df7448970abd725dc6a51, type: 3}
+    description: A simple yet sturdy pendant that emits a protective glow. This beginner's
+      amulet enhances the wearer's resilience and defense, providing an extra layer
+      of protection against enemy attacks.
+    price: 10
+    maxAmount: 99
+    amount: 0
+    dropChance: 0
+    itemEffect:
+    - effect: 4
+      valueEffect: 10
+      timeEffect: 180
+    isInShop: 1
+    priceInShop: 200
+  - name: Orichalcum Amule
+    id: 20
+    isActive: 1
+    rarity: 2
+    itemType: 0
+    icon: {fileID: 21300000, guid: 90672fa6e9c9b0e448c0c07e3977b996, type: 3}
+    description: A gold amulet studded with a sparkling gem. This precious item bestows
+      a significant increase in defense.
+    price: 100
+    maxAmount: 99
+    amount: 10
+    dropChance: 5
+    itemEffect:
+    - effect: 4
+      valueEffect: 80
+      timeEffect: 180
+    isInShop: 0
+    priceInShop: 0
+  - name: Divine Fortification Amulet
+    id: 21
+    isActive: 1
+    rarity: 4
+    itemType: 0
+    icon: {fileID: 21300000, guid: 604c66dfb09d43f419b917451bbebcf6, type: 3}
+    description: 'This divine amulet bestows upon its wearer enhanced protection,
+      enveloping their being with sacred energy that deflects and absorbs attacks,
+      thus bolstering their defense against dark forces.      '
+    price: 100
+    maxAmount: 99
+    amount: 9
+    dropChance: 0
+    itemEffect:
+    - effect: 4
+      valueEffect: 500
+      timeEffect: 180
+    isInShop: 0
+    priceInShop: 0
+  - name: Fury Potion
+    id: 22
+    isActive: 1
+    rarity: 1
+    itemType: 0
+    icon: {fileID: 21300000, guid: fee16c4fe79c3e046b91312dd4719086, type: 3}
+    description: A vial filled with an energetic and effervescent liquid. When consumed,
+      this attack potion triggers a temporary surge in power, amplifying the strength
+      and effectiveness of the consumer's attacks.
+    price: 10
+    maxAmount: 99
+    amount: 0
+    dropChance: 0
+    itemEffect:
+    - effect: 3
+      valueEffect: 15
+      timeEffect: 180
+    isInShop: 1
+    priceInShop: 500
+  - name: Superior Fury Potion
+    id: 23
+    isActive: 1
+    rarity: 2
+    itemType: 0
+    icon: {fileID: 21300000, guid: 46739c80e0222414593271ca8f76403a, type: 3}
+    description: An elaborate flask containing a sparkling liquid. When consumed,
+      this superior attack potion ignites the drinker's determination, significantly
+      increasing the power of their attacks.
+    price: 10
+    maxAmount: 99
+    amount: 0
+    dropChance: 0
+    itemEffect:
+    - effect: 3
+      valueEffect: 50
+      timeEffect: 180
+    isInShop: 0
+    priceInShop: 0
+  - name: Supreme Attack Potion
+    id: 24
+    isActive: 1
+    rarity: 3
+    itemType: 0
+    icon: {fileID: 21300000, guid: ae814121618aefe44823268111585d69, type: 3}
+    description: An exquisite vial containing a luminous elixir. By imbibing this
+      supreme attack potion, the consumer unleashes an immeasurable force, propelling
+      their attack capabilities beyond any known limit and inflicting massive damage
+      upon their opponents.
+    price: 10
+    maxAmount: 99
+    amount: 9
+    dropChance: 0
+    itemEffect:
+    - effect: 3
+      valueEffect: 100
+      timeEffect: 180
+    isInShop: 0
+    priceInShop: 0
+  - name: Level Booster
+    id: 25
+    isActive: 1
+    rarity: 2
+    itemType: 0
+    icon: {fileID: 21300000, guid: 7c844ea34185c4a9182720e8671d417e, type: 3}
+    description: A mystical artifact that grants instantaneous growth. When activated,
+      this level booster increases the mastery and skills of its user.
+    price: 10
+    maxAmount: 99
+    amount: 3
+    dropChance: 5
+    itemEffect:
+    - effect: 10
+      valueEffect: 1
+      timeEffect: 0
+    isInShop: 0
+    priceInShop: 0
+  - name: Swiftness Shard
+    id: 26
+    isActive: 1
+    rarity: 1
+    itemType: 0
+    icon: {fileID: 21300000, guid: 5ada7cc1e0d064be3badf97adf6b1dd3, type: 3}
+    description: An enchanting gem that radiates an ethereal glow. When worn, this
+      swiftness shard hastens the skill charging process for its holder, enabling
+      them to chain attacks with surprising fluidity and lightning speed.
+    price: 10
+    maxAmount: 99
+    amount: 0
+    dropChance: 10
+    itemEffect:
+    - effect: 7
+      valueEffect: 10
+      timeEffect: 180
+    isInShop: 1
+    priceInShop: 500
+  - name: Velocity Gem
+    id: 27
+    isActive: 1
+    rarity: 2
+    itemType: 0
+    icon: {fileID: 21300000, guid: 80816007c7e1148f9a12edc61d693895, type: 3}
+    description: A shimmering gem that exudes a dynamic aura. When activated, the
+      velocity gem slightly speeds up skill charging time, enabling its bearer to
+      chain actions more swiftly and react with heightened agility.
+    price: 10
+    maxAmount: 99
+    amount: 0
+    dropChance: 0
+    itemEffect:
+    - effect: 7
+      valueEffect: 20
+      timeEffect: 180
+    isInShop: 1
+    priceInShop: 5000
+  - name: 'Supernatural Swiftness Shard '
+    id: 28
+    isActive: 1
+    rarity: 3
+    itemType: 0
+    icon: {fileID: 21300000, guid: d3bbd41ffd2d38e47a568bcb83986428, type: 3}
+    description: A crystalline shard infused with temporal energy. When worn, the
+      supernatural swiftness shard greatly accelerates skill recharge, enabling its
+      holder to harness their special abilities almost instantaneously.
+    price: 10
+    maxAmount: 99
+    amount: 4
+    dropChance: 0
+    itemEffect:
+    - effect: 7
+      valueEffect: 30
+      timeEffect: 180
+    isInShop: 0
+    priceInShop: 0
+  - name: Temporal Eclipse Relic
+    id: 29
+    isActive: 1
+    rarity: 4
+    itemType: 0
+    icon: {fileID: 21300000, guid: 161aebb34ee9440afa2344a2c402b8cd, type: 3}
+    description: An ancient relic that emits a swirling aura. When activated, the
+      temporal eclipse relic propels time manipulation to an extreme level, virtually
+      obliterating skill cooldown.
+    price: 10
+    maxAmount: 99
+    amount: 2
+    dropChance: 0
+    itemEffect:
+    - effect: 7
+      valueEffect: 50
+      timeEffect: 180
+    isInShop: 0
+    priceInShop: 0
+  - name: Vital Balance Elixi
+    id: 30
+    isActive: 1
+    rarity: 1
+    itemType: 0
+    icon: {fileID: 21300000, guid: bec77b4ab7a8d435e914f9bc4eaa2e10, type: 3}
+    description: A soothing liquid held with a vial. Upon consumption, the consumer's
+      body enters a state of natural recovery, slightly expediting the healing process
+      and restoring energy in a balanced manner.
+    price: 10
+    maxAmount: 99
+    amount: 0
+    dropChance: 0
+    itemEffect:
+    - effect: 5
+      valueEffect: 5
+      timeEffect: 180
+    isInShop: 1
+    priceInShop: 200
+  - name: Vital Harmony Potion
+    id: 31
+    isActive: 1
+    rarity: 2
+    itemType: 0
+    icon: {fileID: 21300000, guid: 2c2d2336318a141e4b50860d2f5f6089, type: 3}
+    description: An iridescent elixir held within an engraved glass flask. This vital
+      harmony potion stimulates the body's regenerative processes, vastly accelerating
+      natural recovery.
+    price: 10
+    maxAmount: 99
+    amount: 9
+    dropChance: 0
+    itemEffect:
+    - effect: 5
+      valueEffect: 10
+      timeEffect: 180
+    isInShop: 0
+    priceInShop: 0
+  - name: Primal Regeneration Elixir
+    id: 32
+    isActive: 1
+    rarity: 3
+    itemType: 0
+    icon: {fileID: 21300000, guid: 67d9ea53408b540fcbf05eb85e79e74c, type: 3}
+    description: A luminous brew sealed within an alabaster vial. Upon ingestion,
+      the elixir triggers an extreme natural regeneration, wiping away wounds, ailments,
+      and fatigue in an instant.
+    price: 10
+    maxAmount: 99
+    amount: 9
+    dropChance: 0
+    itemEffect:
+    - effect: 5
+      valueEffect: 30
+      timeEffect: 180
+    isInShop: 0
+    priceInShop: 0
+  - name: Banana
+    id: 33
+    isActive: 1
+    rarity: 0
+    itemType: 0
+    icon: {fileID: 21300000, guid: e8ea722a782cda34bba562b493bed147, type: 3}
+    description: A juicy banana ready to be enjoyed. Its sweet flavor and refreshing
+      taste make it an ideal snack to satisfy a small hunger.
+    price: 5
+    maxAmount: 99
+    amount: 5
+    dropChance: 20
+    itemEffect:
+    - effect: 1
+      valueEffect: 7
+      timeEffect: 0
+    isInShop: 1
+    priceInShop: 130
+  - name: Apple
+    id: 34
+    isActive: 1
+    rarity: 0
+    itemType: 0
+    icon: {fileID: 21300000, guid: a4d3f378d1a88f346af15ee906321f2a, type: 3}
+    description: A crispy and juicy apple, ready to be bitten into. This natural
+      and refreshing snack delights your taste buds while adding a touch of health
+      to your day.
+    price: 5
+    maxAmount: 99
+    amount: 7
+    dropChance: 20
+    itemEffect:
+    - effect: 1
+      valueEffect: 7
+      timeEffect: 0
+    - effect: 2
+      valueEffect: 0.1
+      timeEffect: 0
+    isInShop: 1
+    priceInShop: 150
+  - name: Cheese
+    id: 35
+    isActive: 1
+    rarity: 0
+    itemType: 0
+    icon: {fileID: 21300000, guid: 03bdef668bc5ec644b2aa3a92b54292a, type: 3}
+    description: A piece of flavorful gouda cheese carved into a triangular shape.
+      Its rich flavor and velvety texture create a cheese experience that is both
+      satisfying and delightful.
+    price: 5
+    maxAmount: 99
+    amount: 0
+    dropChance: 0
+    itemEffect:
+    - effect: 3
+      valueEffect: 2
+      timeEffect: 0
+    - effect: 4
+      valueEffect: 2
+      timeEffect: 0
+    isInShop: 1
+    priceInShop: 170
+  - name: Golden Medal of Prosperity
+    id: 36
+    isActive: 1
+    rarity: 1
+    itemType: 0
+    icon: {fileID: 21300000, guid: 8ef8e5012bb098f49b9d1ca109cceaaa, type: 3}
+    description: A finely crafted gold medal adorned with exquisite patterns. When
+      worn, this medal amplifies the bearer's luck, slightly increasing the amount
+      of gold gained with each monster slain.
+    price: 5
+    maxAmount: 99
+    amount: 0
+    dropChance: 12
+    itemEffect:
+    - effect: 6
+      valueEffect: 25
+      timeEffect: 300
+    isInShop: 1
+    priceInShop: 300
+  - name: Blessed Fortune Cross
+    id: 37
+    isActive: 1
+    rarity: 2
+    itemType: 0
+    icon: {fileID: 21300000, guid: 74edddd13f4e7204c9f9ba751f6c9ec2, type: 3}
+    description: A delicately crafted gold cross adorned with sacred symbols. By
+      wearing this cross, divine blessings amplify the rewards, enabling the bearer
+      to collect more gold when triumphing over creatures.
+    price: 5
+    maxAmount: 99
+    amount: 0
+    dropChance: 8
+    itemEffect:
+    - effect: 6
+      valueEffect: 70
+      timeEffect: 300
+    isInShop: 1
+    priceInShop: 10000
+  - name: Leaf
+    id: 38
+    isActive: 1
+    rarity: 0
+    itemType: 4
+    icon: {fileID: 21300000, guid: bca15cf925033604bac21b8b127e36b6, type: 3}
+    description: A simple leaf plucked from the forest. Its vibrant green color and
+      delicate texture make it a charming natural object.
+    price: 10
+    maxAmount: 99
+    amount: 10
+    dropChance: 30
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Poison Leaf
+    id: 39
+    isActive: 1
+    rarity: 0
+    itemType: 4
+    icon: {fileID: 21300000, guid: a886d63c63dbb6f4ab10d9294cb06f5c, type: 3}
+    description: A leaf infused with magical energy. Its faint glow testifies to
+      its mysterious power. Use it in rituals or for alchemy to create special potions.
+    price: 10
+    maxAmount: 99
+    amount: 0
+    dropChance: 20
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: 'Verdure Vitality Potion:'
+    id: 40
+    isActive: 1
+    rarity: 0
+    itemType: 0
+    icon: {fileID: 21300000, guid: e914d9bc0cfcd4f47a1c7150fc7b2ff8, type: 3}
+    description: A potion tinged with nature's hues, this concoction enhances your
+      vitality and renews your energies. Your ability to withstand enemy blows is
+      heightened, as is your offensive power.
+    price: 10
+    maxAmount: 99
+    amount: 0
+    dropChance: 0
+    itemEffect:
+    - effect: 3
+      valueEffect: 10
+      timeEffect: 180
+    - effect: 4
+      valueEffect: 3
+      timeEffect: 0
+    isInShop: 0
+    priceInShop: 0
+  - name: Water
+    id: 41
+    isActive: 1
+    rarity: 0
+    itemType: 4
+    icon: {fileID: 21300000, guid: 325a3dd7a93355d4e91d76fda74ca99f, type: 3}
+    description: A potion tinged with nature's hues, this concoction enhances your
+      vitality and renews your energies. Your ability to withstand enemy blows is
+      heightened, as is your offensive power.
+    price: 10
+    maxAmount: 99
+    amount: 0
+    dropChance: 0
+    itemEffect: []
+    isInShop: 1
+    priceInShop: 100
+  - name: Mystic Violet Leaf
+    id: 42
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: 61092a41bec1d46ff874242e27d49c33, type: 3}
+    description: A rare leaf with a violet hue, infused with a mystical gleam. When
+      combined with special materials, this magical leaf can be used to craft a unique
+      Pokeball. Its enchanting power may attract rare and mysterious creatures.
+    price: 100
+    maxAmount: 99
+    amount: 0
+    dropChance: 13
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: "Universal Pok\xE9forge Metal"
+    id: 43
+    isActive: 1
+    rarity: 1
+    itemType: 4
+    icon: {fileID: 21300000, guid: 385c8169ce4b44531809088328092211, type: 3}
+    description: "A legendary metal with a radiant gleam, known as the Universal
+      Pok\xE9forge Metal. This rare and mystical material holds the unique power
+      to create all types of existing Pok\xE9balls. The most skilled trainers can
+      master it to forge ultimate capture tools and expand their arsenal."
+    price: 10
+    maxAmount: 99
+    amount: 0
+    dropChance: 0
+    itemEffect: []
+    isInShop: 1
+    priceInShop: 600
+  - name: Poisonous Scorpion Claw
+    id: 44
+    isActive: 1
+    rarity: 1
+    itemType: 4
+    icon: {fileID: 21300000, guid: 3df4989900a94434290819e2c8c0018d, type: 3}
+    description: "A legendary metal with a radiant gleam, known as the Universal
+      Pok\xE9forge Metal. This rare and mystical material holds the unique power
+      to create all types of existing Pok\xE9balls. The most skilled trainers can
+      master it to forge ultimate capture tools and expand their arsenal."
+    price: 200
+    maxAmount: 99
+    amount: 2
+    dropChance: 20
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Scorpion's Awakening Scroll
+    id: 45
+    isActive: 1
+    rarity: 2
+    itemType: 7
+    icon: {fileID: 21300000, guid: 7974e44204555c448801e67bf4f588d0, type: 3}
+    description: An ancient parchment infused with ancestral magic. By unfurling
+      it before a scorpion, you can unleash its previously dormant ultimate skill.
+      This scroll opens a new path to your scorpion companion's hidden power, transforming
+      it into a formidable force.
+    price: 10
+    maxAmount: 1
+    amount: 0
+    dropChance: 2
+    itemEffect:
+    - effect: 0
+      valueEffect: 6
+      timeEffect: 0
+    isInShop: 0
+    priceInShop: 0
+  - name: Transcendence Ebony
+    id: 46
+    isActive: 1
+    rarity: 1
+    itemType: 4
+    icon: {fileID: 21300000, guid: 539a65c0a89be0b48b427d2eda210d29, type: 3}
+    description: An ancient parchment infused with ancestral magic. By unfurling
+      it before a scorpion, you can unleash its previously dormant ultimate skill.
+      This scroll opens a new path to your scorpion companion's hidden power, transforming
+      it into a formidable force.
+    price: 100
+    maxAmount: 99
+    amount: 2
+    dropChance: 15
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Noctis Wingbone
+    id: 47
+    isActive: 1
+    rarity: 0
+    itemType: 4
+    icon: {fileID: 21300000, guid: 7f0263505c1d5414cafc9808c1c6c9f1, type: 3}
+    description: An ancient parchment infused with ancestral magic. By unfurling
+      it before a scorpion, you can unleash its previously dormant ultimate skill.
+      This scroll opens a new path to your scorpion companion's hidden power, transforming
+      it into a formidable force.
+    price: 50
+    maxAmount: 99
+    amount: 3
+    dropChance: 20
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Subjugation Stone Shard
+    id: 48
+    isActive: 1
+    rarity: 1
+    itemType: 1
+    icon: {fileID: 21300000, guid: cbce8c2bef3424f74ad0e6c3e8919ffc, type: 3}
+    description: A mysterious fragment of a black stone, known as the Subjugation
+      Stone Shard. This magical fragment is used in crafting amulets or devices to
+      temporarily restrain captured monsters. When combined with other materials,
+      it creates a powerful link between the bearer and the creatures, keeping them
+      under control.
+    price: 100
+    maxAmount: 99
+    amount: 0
+    dropChance: 15
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Sylvan Owl Feather
+    id: 49
+    isActive: 1
+    rarity: 0
+    itemType: 4
+    icon: {fileID: 21300000, guid: c7c4d0e24c6bc1743a74ed0eefba8554, type: 3}
+    description: A lightweight feather sourced from an owl residing in lush forests.
+      Its soft touch and natural color palette make it a sought-after material for
+      crafting both mundane and magical items. This feather can be used in enchantments
+      or rituals related to nature and perception.
+    price: 150
+    maxAmount: 99
+    amount: 0
+    dropChance: 20
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Golem Shard
+    id: 50
+    isActive: 1
+    rarity: 0
+    itemType: 4
+    icon: {fileID: 21300000, guid: 52c6a9be40490924888609546bc97412, type: 3}
+    description: A sturdy and mystical fragment, detached from the solid body of
+      an golem. This shard retains some of the elemental power that once animated
+      the golem. It can be used in crafting armor, talismans, or artifacts, adding
+      properties of resilience and protection.
+    price: 100
+    maxAmount: 99
+    amount: 0
+    dropChance: 15
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Obsidian Earth Dragon Claw
+    id: 51
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: bbd967135ad24324ca581e64e20fc2a6, type: 3}
+    description: A powerful and imposing claw hewn from a terrestrial black dragon.
+      Its smooth surface and obsidian gleam make it a formidable weapon. This rare
+      claw can be used in crafting sharp weapons or alchemical items, infusing a
+      dose of draconic strength into your creations.
+    price: 100
+    maxAmount: 99
+    amount: 0
+    dropChance: 10
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Onyx Dragon Blood
+    id: 52
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: ebffab9d8e3844f089df91f790184f81, type: 3}
+    description: "A liquid of deep black, carefully extracted from a legendary black
+      dragon. This bewitching blood contains the ancient strength and power of the
+      creature. Used wisely, it can be infused into enchantments or potions to enhance
+      the bearer's abilities.     User fait des description de monstre moin puissant 
+      ChatGPT 1. Gobelin Furtif : Description : Le Gobelin Furtif est un petit \xEAtre
+      espi\xE8gle qui se faufile dans l'ombre des for\xEAts. Sa taille modeste cache
+      une agilit\xE9 surprenante et une habilet\xE9 \xE0 lancer des projectiles.
+      Bien qu'il ne soit pas tr\xE8s puissant, son intelligence sournoise en fait
+      un adversaire \xE0 ne pas sous-estimer.  2. Araign\xE9e Venimeuse : Description
+      : L'Araign\xE9e Venimeuse est un chasseur nocturne dot\xE9 d'un ven     User
+      sang de dragon ChatGPT Sang de Dragon Ancien : Description : Le Sang de Dragon
+      Ancien est un fluide \xE9carlate rare et puissant qui coule dans les veines
+      des dragons mill\xE9naires. Ce liquide mystique est impr\xE9gn\xE9 d'une \xE9nergie
+      draconique ancestrale, et son utilisation dans des rituels ou des cr\xE9ations
+      magiques peut conf\xE9rer des propri\xE9t\xE9s incroyables. Cependant, l'obtention
+      de ce pr\xE9cieux fluide est un d\xE9fi qui requiert une grande bravoure et
+      une strat\xE9gie habile pour affronter la majest\xE9 des dragons.      "
+    price: 200
+    maxAmount: 99
+    amount: 0
+    dropChance: 10
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Spectral Undead Bone
+    id: 53
+    isActive: 1
+    rarity: 1
+    itemType: 4
+    icon: {fileID: 21300000, guid: 8e4ebe8389e2144a88b53ddf0ed289b3, type: 3}
+    description: An ethereal bone sourced from an undead skeleton animated by supernatural
+      forces. This spectral bone resonates with strange energy, making it ideal for
+      enhancing spells or rituals related to necromancy.
+    price: 170
+    maxAmount: 99
+    amount: 0
+    dropChance: 15
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Fragment of Cursed Bone
+    id: 54
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: 60cfa7e4a30b54a06b82f81391f03030, type: 3}
+    description: A sinister fragment of a cursed bone, infused with dark energy.
+      This piece of bone bears the mark of the curse and can be used in occult rituals
+      or to enhance malevolent enchantments.
+    price: 100
+    maxAmount: 99
+    amount: 0
+    dropChance: 8
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Spear
+    id: 55
+    isActive: 1
+    rarity: 1
+    itemType: 4
+    icon: {fileID: 21300000, guid: 5ce88b35f3420dd479497846f3a75b94, type: 3}
+    description: A basic lance wielded by monstrous creatures. Constructed from rudimentary
+      materials, it speaks to the wild and primal nature of its bearer
+    price: 300
+    maxAmount: 99
+    amount: 0
+    dropChance: 20
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Arc of Departed Shadows
+    id: 56
+    isActive: 1
+    rarity: 1
+    itemType: 4
+    icon: {fileID: 21300000, guid: cddb52065158052439a97fccab06638d, type: 3}
+    description: The Arc of Departed Shadows is crafted from dark and macabre materials,
+      reflecting its sinister origin. Arrows fired from this bow bear a subtle curse,
+      making inflicted wounds harder to heal. An ideal weapon for nocturnal hunters
+      and practitioners of dark magic.
+    price: 300
+    maxAmount: 99
+    amount: 0
+    dropChance: 16
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Wilderness Hatchet
+    id: 57
+    isActive: 1
+    rarity: 1
+    itemType: 4
+    icon: {fileID: 21300000, guid: bf0882c39628300498be0a16fd992358, type: 3}
+    description: The Wilderness Hatchet is forged from a blend of metal and wood,
+      creating a balanced and sturdy weapon. It's perfect for splitting wood, hunting,
+      and defending against creatures of the wilderness.
+    price: 300
+    maxAmount: 99
+    amount: 0
+    dropChance: 13
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Icy Golem Shard
+    id: 58
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: ef2cf12d8ff8b4d93bf5b82b7746648a, type: 3}
+    description: This rare and precious icy golem shard bears the distinctive blue
+      hue of its glacial origin. It holds frigid energy that can be harnessed to
+      enhance frost-related enchantments or forge frosty equipment.
+    price: 150
+    maxAmount: 99
+    amount: 0
+    dropChance: 10
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Frost Sprite Crystal
+    id: 59
+    isActive: 1
+    rarity: 3
+    itemType: 4
+    icon: {fileID: 21300000, guid: d90e197bcaf0147c9866a54a84327f25, type: 3}
+    description: This crystallization is the result of the sublimation of a frost
+      sprite, an entity tied to cold elements and winter storms. The crystal gleams
+      with an icy radiance and retains some of the magical power of the sprite, capable
+      of enhancing ice-related spells and artifacts.
+    price: 1000
+    maxAmount: 1
+    amount: 0
+    dropChance: 0
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Glacial Sphere
+    id: 60
+    isActive: 1
+    rarity: 1
+    itemType: 4
+    icon: {fileID: 21300000, guid: 75ce943d62ac1e04091a050e885d47f3, type: 3}
+    description: A solid ice sphere that emits a chilling glow. Formed from frozen
+      water and elemental magic, it can be used as a projectile or to create icy
+      effects. Popular among mages and those skilled in elemental manipulation.
+    price: 250
+    maxAmount: 99
+    amount: 0
+    dropChance: 13
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Frostwing Feather Fragment
+    id: 61
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: cdff96223f89d8246a3be95be356293e, type: 3}
+    description: 'This feather fragment comes from a majestic frostwing bird. Its
+      icy appearance and lightweight nature make it a prized material for magical
+      crafting and the creation of enchanted flying objects. Mages and artisans are
+      drawn to its beauty and potential.      '
+    price: 200
+    maxAmount: 99
+    amount: 0
+    dropChance: 13
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Phoenix Feather
+    id: 62
+    isActive: 1
+    rarity: 3
+    itemType: 4
+    icon: {fileID: 21300000, guid: 808e09843bcfcda4e854296fdbbfc2b7, type: 3}
+    description: A sacred feather plucked from a majestic phoenix. It gleams with
+      a fiery radiance and holds a portion of the regenerative power of the legendary
+      creature. Phoenix feathers are often used in healing and enchantment rituals,
+      symbolizing rebirth and transformation.
+    price: 300
+    maxAmount: 99
+    amount: 0
+    dropChance: 8
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Emberplume Feather
+    id: 63
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: 2e81278fe87fa7e4a8ea295b5b16b0ee, type: 3}
+    description: An ignited feather sourced from a fire elemental creature. It burns
+      softly while emitting intense heat. Emberplume feathers are utilized to craft
+      potent fire enchantments and fuel fiery magical rituals.
+    price: 200
+    maxAmount: 99
+    amount: 0
+    dropChance: 13
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Fire Golem Fragment
+    id: 64
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: cf14558b4e18843d3a2df64c787d8286, type: 3}
+    description: This fragment originates from a mighty fire golem, forged from the
+      fiery elements. It gleams with an incandescent light and retains some of the
+      heat and strength of the golem. These fragments are used to enhance fire-related
+      enchantments or forge blazing weapons and armor.
+    price: 200
+    maxAmount: 99
+    amount: 0
+    dropChance: 12
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Flame Spirit Crystal
+    id: 65
+    isActive: 1
+    rarity: 3
+    itemType: 4
+    icon: {fileID: 21300000, guid: a70a206f073274fb4a0b7e0c12ce8f36, type: 3}
+    description: This crystallization is the result of the sublimation of a flame
+      spirit, a fiery entity tied to elements of heat and destruction. The crystal
+      emits a fiery glow and holds a fragment of the spirit's burning power, capable
+      of enhancing fire-related spells and artifacts.
+    price: 1000
+    maxAmount: 99
+    amount: 0
+    dropChance: 10
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Demonic Crystal Shard
+    id: 66
+    isActive: 1
+    rarity: 2
+    itemType: 1
+    icon: {fileID: 21300000, guid: ebb409487c4934d6fafca020b5edea5b, type: 3}
+    description: This shard originates from a demonic crystal, infused with darkness
+      and infernal energy. It emits a dark and unstable glow, holding a fraction
+      of the crystal's malevolent power. Often used in occult rituals and sinister
+      enchantments.
+    price: 400
+    maxAmount: 99
+    amount: 0
+    dropChance: 15
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Demon's Heart
+    id: 67
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: 8d5ebd3be762dce4185cd21d290c26dc, type: 3}
+    description: The heart of a demon, burning with malevolent and unholy energy.
+      This dark organ is coveted for its occult properties, capable of amplifying
+      dark spells and serving as a crucial component in demonic rituals. Its sinister
+      pulsation attests to its corrupted power.
+    price: 500
+    maxAmount: 99
+    amount: 0
+    dropChance: 11
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Ruby of Fiery
+    id: 68
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: a2dc374c2642bc844afc22a445e521e6, type: 3}
+    description: This sparkling ruby gleams with a fiery glow, revealing its volcanic
+      origin. Expertly cut, it captures sunlight to create blazing reflections. Sought
+      after for its beauty and ability to enhance fire spells, this ruby is a prized
+      treasure among pyromancer mages.
+    price: 900
+    maxAmount: 99
+    amount: 0
+    dropChance: 15
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Ancient Crown of the Abyss
+    id: 69
+    isActive: 1
+    rarity: 3
+    itemType: 4
+    icon: {fileID: 21300000, guid: ec10851ae68aa44469bd3acdaf132b64, type: 3}
+    description: This ancient crown, once worn by a mighty black demon, still exudes
+      an aura of darkness. Its metal is corroded by ages, but its crimson gems retain
+      a sinister glow. Legends say it bestowed upon its wearer immeasurable power
+      over shadows.
+    price: 1000
+    maxAmount: 99
+    amount: 0
+    dropChance: 6
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Skull Fragment
+    id: 70
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: cd13aaa12631b4b81851fe3a99488753, type: 3}
+    description: This fragment of a skull bears the marks of time and decay. Though
+      incomplete, it still carries a macabre aura. Often used in occult rituals and
+      the crafting of dark objects, this fragment evokes the mysteries of death.
+    price: 800
+    maxAmount: 99
+    amount: 0
+    dropChance: 10
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Pristine Snow
+    id: 71
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: c5a5c9af2982f4b5d8d0dbef15cded89, type: 3}
+    description: This pristine snow blankets the ground in a soft, cold layer. Its
+      sparkling crystals reflect light, creating a magical ambiance. Often used for
+      ice spells and winter rituals, it embodies the beauty and purity of the cold
+      season.
+    price: 500
+    maxAmount: 99
+    amount: 0
+    dropChance: 15
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Verdant Skeleton Ash
+    id: 72
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: a5833503a1f1243e2b5419bfd4f81b18, type: 3}
+    description: These green ashes stem from the combustion of a skeleton, leaving
+      behind a peculiar and unhealthy hue. They are imbued with dark energy, often
+      used in occult rituals and enchantments of sinister nature. Green ashes evoke
+      decadence and corruption.
+    price: 400
+    maxAmount: 99
+    amount: 0
+    dropChance: 15
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Ghostly Soul Essence
+    id: 73
+    isActive: 1
+    rarity: 3
+    itemType: 4
+    icon: {fileID: 21300000, guid: 2303b1388cfb4441cbf96a91b1948ba6, type: 3}
+    description: This essence of spectral soul emanates from a departed ghost, capturing
+      its elusive and ethereal nature. It glows with a faint yet enduring light,
+      holding the emotions and memories of the fallen spirit.
+    price: 700
+    maxAmount: 99
+    amount: 0
+    dropChance: 10
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Cursed Garment Fragment
+    id: 74
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: 42d1c5c48ed6a46c9ba530a1c9fb924f, type: 3}
+    description: This fragment of a cursed garment bears the mark of darkness and
+      curse. Its fabric is imbued with sinister energy, creating a sense of unease.
+      Often used in dark rituals and manipulation spells, this piece evokes the malevolent
+      forces that corrupt it.
+    price: 750
+    maxAmount: 99
+    amount: 0
+    dropChance: 15
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Cursed Violet Golem Fragment
+    id: 75
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: 43589878d1ee64d3db324412ad4b8df4, type: 3}
+    description: This fragment originates from a cursed violet golem, once a mighty
+      creation now fallen from grace. Its enigmatic color conceals dark secrets,
+      and it radiates a malevolent aura. Used in occult practices and forbidden rituals,
+      this fragment is imbued with the curse that corrupted the golem.
+    price: 800
+    maxAmount: 99
+    amount: 0
+    dropChance: 12
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Jade Stone
+    id: 76
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: 0817d052f4f15834b96965b07ed19bf0, type: 3}
+    description: This polished jade stone gleams with its characteristic emerald
+      green hue. Valued for its beauty and soothing properties, it's often used in
+      crafting protective amulets and healing items. This stone evokes harmony and
+      balance.
+    price: 1000
+    maxAmount: 99
+    amount: 0
+    dropChance: 15
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Ancestral Iron Fragment
+    id: 77
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: 322976b9d65394927835453e0d9cd9dd, type: 3}
+    description: This fragment of ancient iron bears the marks of time and history.
+      Its weathered texture and rich color speak to its long existence. Often used
+      in crafting high-quality weapons and armor, this fragment evokes the skills
+      of blacksmiths passed down through generations.
+    price: 1000
+    maxAmount: 99
+    amount: 0
+    dropChance: 15
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Crystal of Redemption
+    id: 78
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: 4bf5ded5cf8b841b085dd843115310ec, type: 3}
+    description: This radiant crystal evokes redemption and purification. Its brilliant
+      clarity is tinged with a golden glow, symbolizing the release of burdens from
+      the past. Often used in healing rituals and spiritual quests, this crystal
+      embodies hope and transformation.
+    price: 1000
+    maxAmount: 99
+    amount: 0
+    dropChance: 10
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Verdant Plant Soul
+    id: 79
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: 6625de4a416e7e54783c78d2017e1b72, type: 3}
+    description: This green soul originates from a living plant, containing the life
+      energy of nature. It glows with a soothing light, reminiscent of growth and
+      regeneration. Often used in healing rituals and druidic practices, this soul
+      evokes the symbiosis between plants and the natural world.
+    price: 1000
+    maxAmount: 99
+    amount: 0
+    dropChance: 12
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Golden Axe
+    id: 80
+    isActive: 1
+    rarity: 3
+    itemType: 4
+    icon: {fileID: 21300000, guid: 789da3a52548f314eb83144d2a6e3576, type: 3}
+    description: This golden axe embodies opulence and power. Its finely crafted
+      handle and golden blade make it a weapon that is both functional and lavish.
+      Often wielded by nobles and renowned warriors, it symbolizes strength and prestige.
+    price: 1200
+    maxAmount: 99
+    amount: 0
+    dropChance: 15
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Spirit Crystal
+    id: 81
+    isActive: 1
+    rarity: 3
+    itemType: 4
+    icon: {fileID: 21300000, guid: 9e28a7d8330a74cbb8ecf0ea6ba8820a, type: 3}
+    description: This mystical crystal emits a soft and shifting glow, reflecting
+      the ethereal nature of spirits. It holds a fragment of spiritual energy, capable
+      of amplifying psychic powers and facilitating communication with the spirit
+      realms. Often used by mediums and spiritual mages.
+    price: 950
+    maxAmount: 99
+    amount: 0
+    dropChance: 10
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Mummy's Band
+    id: 82
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: ee37a60ab0112d34e96127dcdb23a461, type: 3}
+    description: 'This ancient ring is wrapped in sepulchral cloth and adorned with
+      ancient motifs. It exudes a mysterious aura imbued with energies from beyond
+      the grave. '
+    price: 650
+    maxAmount: 99
+    amount: 0
+    dropChance: 15
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Mummy's Diamond
+    id: 83
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: c6c2c362de8a3364fa7a770b8eebb864, type: 3}
+    description: This rare and dark diamond is extracted from the funerary treasures
+      of an ancient mummy. Its mystical gleam appears to reflect the secrets of the
+      beyond.
+    price: 1000
+    maxAmount: 99
+    amount: 0
+    dropChance: 15
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Dark Essence
+    id: 84
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: b0b03d9502d33b14aa4945971be9b812, type: 3}
+    description: This dark and shadowy essence is imbued with a sinister aura. It
+      emanates from the depths of darkness and can be channeled for magical practices.
+      Often used in shadow spells and occult rituals, this essence is both powerful
+      and perilous, capable of unleashing unknown forces.
+    price: 450
+    maxAmount: 99
+    amount: 0
+    dropChance: 15
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Tome of Dark Religions
+    id: 85
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: edc473da4e514bc4a8a93f88e5e92c60, type: 3}
+    description: This ominous religious tome is steeped in dark beliefs and forbidden
+      rituals. Its pages contain esoteric knowledge related to malevolent deities
+      and sacrilegious practices
+    price: 300
+    maxAmount: 99
+    amount: 0
+    dropChance: 20
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Enchanted Opal
+    id: 86
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: f33667ee68a803f439dcb26748711b3c, type: 3}
+    description: This enchanted opal gleams with iridescent flashes, shifting colors
+      as the angle of light changes. Its mystical beauty is enhanced by its shifting
+      hues. Often used in illusion magic and scrying spells, this opal is a coveted
+      gem among practitioners of the esoteric arts.
+    price: 300
+    maxAmount: 99
+    amount: 0
+    dropChance: 15
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Demon Minotaur's Heart
+    id: 87
+    isActive: 1
+    rarity: 3
+    itemType: 4
+    icon: {fileID: 21300000, guid: 1f4e0442942964fb5a4b3094cf0b9435, type: 3}
+    description: This heart of a demonic minotaur pulsates with malevolent and wild
+      energy. It emits a sinister glow, bearing witness to the unleashed power of
+      the creature. Often used in occult rituals and spells of brute strength, this
+      heart embodies the deadly fusion of man and infernal beast.
+    price: 1000
+    maxAmount: 99
+    amount: 0
+    dropChance: 8
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Legendary Flame
+    id: 88
+    isActive: 1
+    rarity: 4
+    itemType: 4
+    icon: {fileID: 21300000, guid: d340079d55d0f404a9d4a06d7017b0fb, type: 3}
+    description: This legendary flame burns with unparalleled intensity, invoking
+      ancient tales of mythical fires. Its golden glow dances with boundless, fiery
+      energy. Often used to enchant weapons and items, this flame embodies the power
+      of myth and magic.
+    price: 2000
+    maxAmount: 1
+    amount: 0
+    dropChance: 10
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Noxscale's Mastery Scroll
+    id: 89
+    isActive: 1
+    rarity: 3
+    itemType: 7
+    icon: {fileID: 21300000, guid: 161aebb34ee9440afa2344a2c402b8cd, type: 3}
+    description: This legendary flame burns with unparalleled intensity, invoking
+      ancient tales of mythical fires. Its golden glow dances with boundless, fiery
+      energy. Often used to enchant weapons and items, this flame embodies the power
+      of myth and magic.
+    price: 10
+    maxAmount: 1
+    amount: 0
+    dropChance: 0
+    itemEffect:
+    - effect: 0
+      valueEffect: 9
+      timeEffect: 0
+    isInShop: 0
+    priceInShop: 0
+  - name: Fire Orb
+    id: 90
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: -7709578306187591789, guid: 508ff54c862e347459a48013b01f3daa, type: 3}
+    description: This fiery orb emits a blazing glow, containing the elemental power
+      of fire. It burns with potent energy, ready to be channeled for fire spells
+      and magical attacks. Often used by pyromancer mages and fighters skilled in
+      elemental magic.
+    price: 10
+    maxAmount: 1
+    amount: 0
+    dropChance: 0
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Elemental Core
+    id: 91
+    isActive: 1
+    rarity: 1
+    itemType: 4
+    icon: {fileID: -8378717320150096568, guid: 508ff54c862e347459a48013b01f3daa, type: 3}
+    description: This elemental core holds primordial energy, ready to be shaped
+      as needed. Its unassuming appearance belies limitless magical potential, capable
+      of channeling various elements for spells and enchantments. Often used by novice
+      spellcasters to develop their elemental mastery.
+    price: 10
+    maxAmount: 99
+    amount: 0
+    dropChance: 0
+    itemEffect: []
+    isInShop: 1
+    priceInShop: 3000
+  - name: Flamefrost Nexus
+    id: 92
+    isActive: 1
+    rarity: 3
+    itemType: 1
+    icon: {fileID: -4761687134901991976, guid: 508ff54c862e347459a48013b01f3daa, type: 3}
+    description: This elemental core holds primordial energy, ready to be shaped
+      as needed. Its unassuming appearance belies limitless magical potential, capable
+      of channeling various elements for spells and enchantments. Often used by novice
+      spellcasters to develop their elemental mastery.
+    price: 10
+    maxAmount: 1
+    amount: 0
+    dropChance: 0
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Frostspirit Mastery Scroll
+    id: 93
+    isActive: 1
+    rarity: 3
+    itemType: 7
+    icon: {fileID: 21300000, guid: bed4725e3fce140ec9eb9af5bb7562ce, type: 3}
+    description: 'This scroll unveils the pinnacle of frost spirit skills. Its cold
+      glow reveals the ultimate frozen power, sought by elemental masters.      '
+    price: 10
+    maxAmount: 1
+    amount: 0
+    dropChance: 0
+    itemEffect:
+    - effect: 0
+      valueEffect: 15
+      timeEffect: 0
+    isInShop: 0
+    priceInShop: 0
+  - name: Ethereal Fabric
+    id: 94
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: 438446d700ad34b2aab5b17205ce287e, type: 3}
+    description: This ethereal fabric appears almost transparent, evoking spiritual
+      dimensions. Light and elusive, it's often used in crafting amulets and sacred
+      garments, forging a link between the physical world and the realm of spirits.
+    price: 10
+    maxAmount: 99
+    amount: 0
+    dropChance: 0
+    itemEffect: []
+    isInShop: 1
+    priceInShop: 1500
+  - name: Rosette Frost Crystal
+    id: 95
+    isActive: 1
+    rarity: 3
+    itemType: 4
+    icon: {fileID: 21300000, guid: a7c7b4870fc8a4ce690390a9ae6cdd6c, type: 3}
+    description: This pink crystal exudes a gentle icy aura, containing the quintessence
+      of the frost spirit. As a key material, it unlocks the ultimate knowledge within
+      the spiritual scroll. Sought by disciples of cold, this crystal embodies the
+      connection between frost and ancient wisdom.
+    price: 10
+    maxAmount: 1
+    amount: 0
+    dropChance: 0
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Ravager's Mastery Scroll
+    id: 96
+    isActive: 1
+    rarity: 3
+    itemType: 7
+    icon: {fileID: 21300000, guid: 244e770b45793af4cbf465147020fee8, type: 3}
+    description: This mastery scroll unveils the hidden skills of the ravager. Its
+      ink reveals the profound teachings of this formidable creature. Often coveted
+      by monster hunters and daring warriors, this scroll grants access to wild power.
+    price: 10
+    maxAmount: 1
+    amount: 0
+    dropChance: 0
+    itemEffect:
+    - effect: 0
+      valueEffect: 24
+      timeEffect: 0
+    isInShop: 0
+    priceInShop: 0
+  - name: Mystic Gold Bar
+    id: 97
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: b15149bd8f766f54aac893de15f1ba2d, type: 3}
+    description: This mystic gold bar gleams with an enigmatic glow, attesting to
+      its magical origin. Its surface is etched with ancient symbols, revealing a
+      hidden power. Often used in crafting artifacts and enchanted amulets, this
+      bar embodies the fusion of wealth and mysticism.
+    price: 100
+    maxAmount: 99
+    amount: 0
+    dropChance: 0
+    itemEffect: []
+    isInShop: 1
+    priceInShop: 3000
+  - name: Minotaur's Mastery Scroll
+    id: 98
+    isActive: 1
+    rarity: 3
+    itemType: 7
+    icon: {fileID: 21300000, guid: b9ffb39cde8d74f74a2ce746ce500fba, type: 3}
+    description: This pink scroll holds the ultimate knowledge to unleash the last
+      skill of the formidable minotaur. Its ink emits a mysterious glow, unveiling
+      the beast's secrets. Often sought by monster tamers and daring adventurers,
+      this scroll grants access to devastating power.
+    price: 100
+    maxAmount: 1
+    amount: 0
+    dropChance: 0
+    itemEffect:
+    - effect: 0
+      valueEffect: 30
+      timeEffect: 0
+    isInShop: 0
+    priceInShop: 0
+  - name: Infernal Flame
+    id: 99
+    isActive: 1
+    rarity: 3
+    itemType: 4
+    icon: {fileID: -4953150400721573810, guid: 8443974e60c68344d89cf6a2e23d9b88, type: 3}
+    description: This blazing flame evokes the fires of hell, burning with a sinister
+      glow. It holds malevolent energy, capable of unleashing devastating forces.
+      Often used in dark rituals and spells of destruction, this flame embodies the
+      raw power of the infernal depths.
+    price: 100
+    maxAmount: 1
+    amount: 0
+    dropChance: 0
+    itemEffect:
+    - effect: 0
+      valueEffect: 30
+      timeEffect: 0
+    isInShop: 0
+    priceInShop: 0
+  - name: Collar of Transcendence
+    id: 100
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: 4ca4da0f88df7c64cba9c1934d6930cc, type: 3}
+    description: This mystical collar radiates transcendent energy, symbolizing the
+      pursuit of elevation beyond boundaries. It gleams with a celestial glow, invoking
+      hidden potential. Often worn by those aspiring to surpass their own abilities,
+      this collar provides a connection to levels of power previously unseen.
+    price: 100
+    maxAmount: 1
+    amount: 0
+    dropChance: 0
+    itemEffect: []
+    isInShop: 1
+    priceInShop: 100000
+  - name: Scroll of Supreme Mastery
+    id: 101
+    isActive: 1
+    rarity: 4
+    itemType: 4
+    icon: {fileID: 21300000, guid: 8f5894c048f644f3b88c0b5967a6cbd3, type: 3}
+    description: This sacred scroll holds the ultimate knowledge to unlock the most
+      powerful skill. Its ink gleams with a transcendent glow, unveiling the deepest
+      mysteries. Often sought by masters and champions, this scroll grants access
+      to unparalleled power.
+    price: 100
+    maxAmount: 1
+    amount: 0
+    dropChance: 0
+    itemEffect: []
+    isInShop: 0
+    priceInShop: 0
+  - name: Crimson Alchemical Blood
+    id: 102
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: 983fdda9413da4bb6a1dafb9905d6e86, type: 3}
+    description: This crimson blood is the result of intricate and mysterious alchemy.
+      Its deep hue and unique composition are achieved through secretive processes.
+      Often used in magical rituals and potent potions, this alchemical blood embodies
+      the fusion of science and magic.
+    price: 100
+    maxAmount: 99
+    amount: 0
+    dropChance: 0
+    itemEffect: []
+    isInShop: 1
+    priceInShop: 2000
+  - name: Guardianite Ore
+    id: 103
+    isActive: 1
+    rarity: 1
+    itemType: 4
+    icon: {fileID: 21300000, guid: 2b2a034aa25ce4f7a818bb0df99f6ccc, type: 3}
+    description: This defensive ore radiates a protective aura. Its crystalline structure
+      enhances the defensive properties of items forged from it. Often used in crafting
+      resilient armor and shields, this ore embodies strength and durability.
+    price: 100
+    maxAmount: 99
+    amount: 0
+    dropChance: 0
+    itemEffect: []
+    isInShop: 1
+    priceInShop: 400
+  - name: Pure Magic Stone
+    id: 104
+    isActive: 1
+    rarity: 2
+    itemType: 4
+    icon: {fileID: 21300000, guid: 6ec9366c795ac434d982aec0c7df4367, type: 3}
+    description: This pure magic stone emits a radiant glow, imbued with intense
+      mystical energies. It's rarely found in its most immaculate form. Often used
+      as a catalyst for spells and enchantments, this stone embodies the quintessence
+      of magic itself.
+    price: 100
+    maxAmount: 99
+    amount: 0
+    dropChance: 0
+    itemEffect: []
+    isInShop: 1
+    priceInShop: 800

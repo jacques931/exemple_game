@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e3077002e7f6bb48aca0b70afd13c25, type: 3}
+  m_Name: PokeballDatabase
+  m_EditorClassIdentifier: 
+  pokeball:
+  - id: 0
+    pokeballImg: {fileID: 5311083760174518918, guid: e0214c5a252b4c3459938afbd2d4a9ad, type: 3}
+    timeThrow: 4
+    catchChance: 0
+  - id: 1
+    pokeballImg: {fileID: 5888315422345105727, guid: e0214c5a252b4c3459938afbd2d4a9ad, type: 3}
+    timeThrow: 5
+    catchChance: 5
+  - id: 2
+    pokeballImg: {fileID: -3576956593141714279, guid: e0214c5a252b4c3459938afbd2d4a9ad, type: 3}
+    timeThrow: 5
+    catchChance: 10
+  - id: 3
+    pokeballImg: {fileID: 4781968803287986316, guid: e0214c5a252b4c3459938afbd2d4a9ad, type: 3}
+    timeThrow: 5
+    catchChance: 15
+  - id: 4
+    pokeballImg: {fileID: 3517281720477641126, guid: e0214c5a252b4c3459938afbd2d4a9ad, type: 3}
+    timeThrow: 5
+    catchChance: 20
+  - id: 5
+    pokeballImg: {fileID: 724933104740771742, guid: e0214c5a252b4c3459938afbd2d4a9ad, type: 3}
+    timeThrow: 6
+    catchChance: 25
+  - id: 6
+    pokeballImg: {fileID: 5371866471718008748, guid: e0214c5a252b4c3459938afbd2d4a9ad, type: 3}
+    timeThrow: 6
+    catchChance: 30
+  - id: 7
+    pokeballImg: {fileID: -6686840648376083744, guid: e0214c5a252b4c3459938afbd2d4a9ad, type: 3}
+    timeThrow: 7
+    catchChance: 35
+  - id: 8
+    pokeballImg: {fileID: -7294465251024053427, guid: e0214c5a252b4c3459938afbd2d4a9ad, type: 3}
+    timeThrow: 7
+    catchChance: 40
+  - id: 9
+    pokeballImg: {fileID: -6540262881156913281, guid: e0214c5a252b4c3459938afbd2d4a9ad, type: 3}
+    timeThrow: 7
+    catchChance: 45
+  - id: 10
+    pokeballImg: {fileID: -9103666052561205923, guid: e0214c5a252b4c3459938afbd2d4a9ad, type: 3}
+    timeThrow: 8
+    catchChance: 50
+  - id: 11
+    pokeballImg: {fileID: 3784619658839396737, guid: e0214c5a252b4c3459938afbd2d4a9ad, type: 3}
+    timeThrow: 20
+    catchChance: 100

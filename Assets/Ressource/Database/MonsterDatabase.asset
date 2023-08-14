@@ -1,0 +1,1577 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d1e420429d5e9c42913e2be084b6c96, type: 3}
+  m_Name: MonsterDatabase
+  m_EditorClassIdentifier: 
+  monster:
+  - id: 2
+    name: 
+    rarity: 0
+    idMonster: 1
+    level: 0
+    currentLife: 0
+    startLife: 0
+    maxLife: 0
+    defense: 0
+    speed: 0
+    jump: 0
+    canFly: 0
+    getXpMonster: 0
+    money: 0
+    catchChance: 0
+    spawnChance: 0
+    searchPlayerDistance: 0
+    playerPrefs: {fileID: 0}
+    playerIcon: {fileID: 0}
+    xp: 0
+    maxXp: 0
+    recoveryLife: 0
+    SecondSkillLevel: 0
+    input: []
+  - id: 0
+    name: Winglet
+    rarity: 0
+    idMonster: 1
+    level: 1
+    currentLife: 29
+    startLife: 25
+    maxLife: 25
+    defense: 0
+    speed: 2
+    jump: 2.2
+    canFly: 0
+    getXpMonster: 0
+    money: 0
+    catchChance: 0
+    spawnChance: 0
+    searchPlayerDistance: 0
+    playerPrefs: {fileID: 8427993424324972077, guid: fccc9382886abc84c9cd219ec9e77860, type: 3}
+    playerIcon: {fileID: -9059625927733084881, guid: 779450b3b54795249b83f5ef76a697a2, type: 3}
+    xp: 0
+    maxXp: 50
+    recoveryLife: 15
+    SecondSkillLevel: 12
+    input:
+    - key: 97
+      attackName: Corn Attack
+      typeAttack: 0
+      damage: 12
+      attackAnimName: AttackNormal
+      reload: 2
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 21300000, guid: 61c3b26c29a21554fbb25e6647e9dfa0, type: 3}
+      attackPrefs: {fileID: 0}
+      attackSound: {fileID: 8300000, guid: 11993d51f52b2564fac53682fae3ff78, type: 3}
+      attackDistance: 0.5
+    - key: 122
+      attackName: Lightning
+      typeAttack: 1
+      damage: 40
+      attackAnimName: AttackNormal
+      reload: 5
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 2241050374423549575, guid: 81bcbf611c4359c4fbe681b538d287ae, type: 3}
+      attackPrefs: {fileID: 6256821723459351979, guid: cf8b20d12ce760d48b16dd7e198acf0d, type: 3}
+      attackSound: {fileID: 8300000, guid: 584771f6e8c4a644889df795a4cda3b8, type: 3}
+      attackDistance: 6
+  - id: 0
+    name: Verdor
+    rarity: 0
+    idMonster: 2
+    level: 4
+    currentLife: 29
+    startLife: 0
+    maxLife: 45
+    defense: 0
+    speed: 1.4
+    jump: 1
+    canFly: 0
+    getXpMonster: 18
+    money: 100
+    catchChance: 0
+    spawnChance: 100
+    searchPlayerDistance: 5
+    playerPrefs: {fileID: 0}
+    playerIcon: {fileID: -6745678682572505027, guid: 6c85ef47ef2fd1a428f168cac695c898, type: 3}
+    xp: 0
+    maxXp: 0
+    recoveryLife: 10
+    SecondSkillLevel: -1
+    input:
+    - key: 97
+      attackName: 
+      typeAttack: 0
+      damage: 10
+      attackAnimName: AttackNormal
+      reload: 2.5
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 0
+      iconAttack: {fileID: 0}
+      attackPrefs: {fileID: 0}
+      attackSound: {fileID: 8300000, guid: 11993d51f52b2564fac53682fae3ff78, type: 3}
+      attackDistance: 0.4
+  - id: 0
+    name: Blue Verdor
+    rarity: 0
+    idMonster: 3
+    level: 5
+    currentLife: 29
+    startLife: 0
+    maxLife: 50
+    defense: 0
+    speed: 1.5
+    jump: 1.2
+    canFly: 0
+    getXpMonster: 20
+    money: 105
+    catchChance: 0
+    spawnChance: 70
+    searchPlayerDistance: 5
+    playerPrefs: {fileID: 0}
+    playerIcon: {fileID: -7580304423452997777, guid: 80a26d39883825c4da0012c3bdf7353c, type: 3}
+    xp: 0
+    maxXp: 0
+    recoveryLife: 15
+    SecondSkillLevel: -1
+    input:
+    - key: 97
+      attackName: 
+      typeAttack: 0
+      damage: 11
+      attackAnimName: AttackNormal
+      reload: 2
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 0
+      iconAttack: {fileID: 0}
+      attackPrefs: {fileID: 0}
+      attackSound: {fileID: 8300000, guid: 11993d51f52b2564fac53682fae3ff78, type: 3}
+      attackDistance: 0.4
+  - id: 0
+    name: Dark Verdor
+    rarity: 0
+    idMonster: 4
+    level: 7
+    currentLife: 29
+    startLife: 0
+    maxLife: 60
+    defense: 0
+    speed: 1.6
+    jump: 1.2
+    canFly: 0
+    getXpMonster: 22
+    money: 110
+    catchChance: 0
+    spawnChance: 60
+    searchPlayerDistance: 5
+    playerPrefs: {fileID: 0}
+    playerIcon: {fileID: 3983156523688926760, guid: 3ba93012644fd7c47b976e985e4a7386, type: 3}
+    xp: 0
+    maxXp: 0
+    recoveryLife: 15
+    SecondSkillLevel: -1
+    input:
+    - key: 97
+      attackName: 
+      typeAttack: 0
+      damage: 15
+      attackAnimName: AttackNormal
+      reload: 2
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 0
+      iconAttack: {fileID: 0}
+      attackPrefs: {fileID: 0}
+      attackSound: {fileID: 8300000, guid: 11993d51f52b2564fac53682fae3ff78, type: 3}
+      attackDistance: 0.4
+  - id: 0
+    name: Slime
+    rarity: 0
+    idMonster: 5
+    level: 1
+    currentLife: 29
+    startLife: 0
+    maxLife: 30
+    defense: 0
+    speed: 1.5
+    jump: 2
+    canFly: 0
+    getXpMonster: 15
+    money: 100
+    catchChance: 0
+    spawnChance: 100
+    searchPlayerDistance: 4
+    playerPrefs: {fileID: 0}
+    playerIcon: {fileID: -7282886668606283007, guid: c3456a13ee67f764480348894661ab8c, type: 3}
+    xp: 0
+    maxXp: 0
+    recoveryLife: 15
+    SecondSkillLevel: -1
+    input:
+    - key: 97
+      attackName: 
+      typeAttack: 0
+      damage: 8
+      attackAnimName: AttackNormal
+      reload: 3.5
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 0
+      iconAttack: {fileID: 0}
+      attackPrefs: {fileID: 0}
+      attackSound: {fileID: 8300000, guid: 6a9dfeddb65f97544824eca96573c756, type: 3}
+      attackDistance: 0.5
+  - id: 3
+    name: Scorpion
+    rarity: 1
+    idMonster: 6
+    level: 10
+    currentLife: 29
+    startLife: 150
+    maxLife: 150
+    defense: 0
+    speed: 2.2
+    jump: 2.3
+    canFly: 0
+    getXpMonster: 25
+    money: 150
+    catchChance: 40
+    spawnChance: 60
+    searchPlayerDistance: 7
+    playerPrefs: {fileID: 4425585228760843459, guid: 343484272e5d6a942a4e8417c08632f2, type: 3}
+    playerIcon: {fileID: -4530670122045351285, guid: c68d4f8f82491d347be7610fe41c199b, type: 3}
+    xp: 0
+    maxXp: 117
+    recoveryLife: 15
+    SecondSkillLevel: 20
+    input:
+    - key: 97
+      attackName: Bane Scythe
+      typeAttack: 0
+      damage: 23
+      attackAnimName: AttackNormal
+      reload: 3
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 21300000, guid: 61c3b26c29a21554fbb25e6647e9dfa0, type: 3}
+      attackPrefs: {fileID: 0}
+      attackSound: {fileID: 8300000, guid: 11993d51f52b2564fac53682fae3ff78, type: 3}
+      attackDistance: 0.6
+    - key: 122
+      attackName: Venomshot
+      typeAttack: 1
+      damage: 65
+      attackAnimName: 
+      reload: 5
+      addPosAttack: 0.1
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 21300000, guid: 494954841faf50a4eae546da5a39848d, type: 3}
+      attackPrefs: {fileID: 6379702365697871476, guid: 437255830bc6a514496f0261d1cce641, type: 3}
+      attackSound: {fileID: 8300000, guid: f4760873e9835634191ff109a345e615, type: 3}
+      attackDistance: 6
+    - key: 101
+      attackName: Venom Trap
+      typeAttack: 1
+      damage: 100
+      attackAnimName: 
+      reload: 10
+      addPosAttack: 1
+      addPosAttackY: -0.15
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 21300000, guid: 404a59d2d4ca37b4c8a7e58bf8541c0b, type: 3}
+      attackPrefs: {fileID: 5169275931060462043, guid: a9c4b9c2197626a4c8392f58252daeda, type: 3}
+      attackSound: {fileID: 8300000, guid: 80e16a9d4381eba40bb61346349e0a4c, type: 3}
+      attackDistance: 3
+  - id: 0
+    name: Ebonflight
+    rarity: 1
+    idMonster: 7
+    level: 11
+    currentLife: 29
+    startLife: 0
+    maxLife: 110
+    defense: 0
+    speed: 2.3
+    jump: 2
+    canFly: 1
+    getXpMonster: 27
+    money: 120
+    catchChance: 0
+    spawnChance: 50
+    searchPlayerDistance: 8
+    playerPrefs: {fileID: 0}
+    playerIcon: {fileID: 1103220447360114618, guid: 250adaa1f7ee326448cfc9836b3f4700, type: 3}
+    xp: 0
+    maxXp: 0
+    recoveryLife: 15
+    SecondSkillLevel: -1
+    input:
+    - key: 99
+      attackName: Wingbeat Strike
+      typeAttack: 1
+      damage: 20
+      attackAnimName: AttackNormal
+      reload: 2.3
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 0}
+      attackPrefs: {fileID: 0}
+      attackSound: {fileID: 8300000, guid: 7fad6d573e1ab4b4790eddc6b423baca, type: 3}
+      attackDistance: 0.5
+  - id: 2
+    name: Wisphowl
+    rarity: 1
+    idMonster: 8
+    level: 15
+    currentLife: 29
+    startLife: 200
+    maxLife: 200
+    defense: 5
+    speed: 2.5
+    jump: 2
+    canFly: 1
+    getXpMonster: 30
+    money: 170
+    catchChance: 30
+    spawnChance: 40
+    searchPlayerDistance: 10
+    playerPrefs: {fileID: 6043119035381351760, guid: 885bad5af74aae54b968365a68bc9487, type: 3}
+    playerIcon: {fileID: -6248616121818220643, guid: f5201aa1898adfc49a4f9360fbd609be, type: 3}
+    xp: 0
+    maxXp: 220
+    recoveryLife: 15
+    SecondSkillLevel: 23
+    input:
+    - key: 97
+      attackName: Gale Impact
+      typeAttack: 1
+      damage: 45
+      attackAnimName: AttackNormal
+      reload: 3
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 21300000, guid: 2cb1d33ba24707f4a881ad92d8d0f03c, type: 3}
+      attackPrefs: {fileID: 918039689719792696, guid: 94370ea277ecd4e48a21640653c04ff7, type: 3}
+      attackSound: {fileID: 8300000, guid: 7fad6d573e1ab4b4790eddc6b423baca, type: 3}
+      attackDistance: 8
+    - key: 122
+      attackName: Tempest Whirl
+      typeAttack: 1
+      damage: 110
+      attackAnimName: 
+      reload: 10
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 6449458899081204806, guid: 046ed21bc4a7bd347915e501bf84416e, type: 3}
+      attackPrefs: {fileID: 5715043525900973846, guid: 91d912701f12145479129b939194c82f, type: 3}
+      attackSound: {fileID: 8300000, guid: 627158de81f1402419687d039e14bb11, type: 3}
+      attackDistance: -1
+  - id: 1
+    name: Noxscale
+    rarity: 3
+    idMonster: 9
+    level: 19
+    currentLife: 29
+    startLife: 320
+    maxLife: 320
+    defense: 10
+    speed: 2.5
+    jump: 2.6
+    canFly: 0
+    getXpMonster: 50
+    money: 250
+    catchChance: 15
+    spawnChance: 3
+    searchPlayerDistance: 7.5
+    playerPrefs: {fileID: 676141405156710243, guid: eb648825166edd44dbf6ef2ca205a4fd, type: 3}
+    playerIcon: {fileID: 7699416727225071456, guid: 00e3d4af89023114fafca7ff0eef0196, type: 3}
+    xp: 0
+    maxXp: 380
+    recoveryLife: 25
+    SecondSkillLevel: 25
+    input:
+    - key: 97
+      attackName: Emberburst
+      typeAttack: 1
+      damage: 110
+      attackAnimName: AttackNormal
+      reload: 5
+      addPosAttack: 0.1
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: -5458434685866359648, guid: c4f6737ca3330d244b911fa76f9d13ef, type: 3}
+      attackPrefs: {fileID: 6488206279754719421, guid: a43a4215475cdca4c9027a5b869c8490, type: 3}
+      attackSound: {fileID: 8300000, guid: ad05662181618a54db0cfa0ad8c6a2e8, type: 3}
+      attackDistance: 7
+    - key: 122
+      attackName: Draconic Restoration
+      typeAttack: 2
+      damage: 150
+      attackAnimName: 
+      reload: 11
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 21300000, guid: d8985622361e92e40975a46e4259e74e, type: 3}
+      attackPrefs: {fileID: 448044442627955705, guid: b4fcae6c2af9316418b5c3e4fef79a43, type: 3}
+      attackSound: {fileID: 8300000, guid: 027331266d02ac744b944b1c1d849cae, type: 3}
+      attackDistance: 5
+    - key: 101
+      attackName: Inferno Ray
+      typeAttack: 1
+      damage: 300
+      attackAnimName: AttackNormal
+      reload: 20
+      addPosAttack: 2
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 21300000, guid: 2d9ee46a975a837498f433dd6b09b649, type: 3}
+      attackPrefs: {fileID: 4426622658706450894, guid: 25cddfe7edc95f343a56546e2e518999, type: 3}
+      attackSound: {fileID: 8300000, guid: 41bfe519cb8612344aa843bec12f37ac, type: 3}
+      attackDistance: 8
+  - id: 0
+    name: Verdant Stone Guardian
+    rarity: 1
+    idMonster: 10
+    level: 22
+    currentLife: 29
+    startLife: 0
+    maxLife: 350
+    defense: 10
+    speed: 1.7
+    jump: 1.5
+    canFly: 0
+    getXpMonster: 35
+    money: 160
+    catchChance: 0
+    spawnChance: 50
+    searchPlayerDistance: 6
+    playerPrefs: {fileID: 0}
+    playerIcon: {fileID: 1809312243535020777, guid: f500e03299dd86a49ac633ebfb8f8d7f, type: 3}
+    xp: 0
+    maxXp: 0
+    recoveryLife: 25
+    SecondSkillLevel: 22
+    input:
+    - key: 97
+      attackName: Golem Strike
+      typeAttack: 0
+      damage: 20
+      attackAnimName: AttackNormal
+      reload: 4
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 0
+      iconAttack: {fileID: 0}
+      attackPrefs: {fileID: 0}
+      attackSound: {fileID: 8300000, guid: 11993d51f52b2564fac53682fae3ff78, type: 3}
+      attackDistance: 0.7
+    - key: 122
+      attackName: Wall
+      typeAttack: 3
+      damage: 0
+      attackAnimName: 
+      reload: 25
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 0
+      iconAttack: {fileID: 0}
+      attackPrefs: {fileID: 6470892568555907378, guid: cf868e6cc0437c24a998ec6522cd2d7a, type: 3}
+      attackSound: {fileID: 0}
+      attackDistance: 1
+  - id: 0
+    name: Skeletal Lancer
+    rarity: 1
+    idMonster: 11
+    level: 22
+    currentLife: 29
+    startLife: 0
+    maxLife: 400
+    defense: 7
+    speed: 2.2
+    jump: 2
+    canFly: 0
+    getXpMonster: 48
+    money: 210
+    catchChance: 0
+    spawnChance: 80
+    searchPlayerDistance: 6.5
+    playerPrefs: {fileID: 0}
+    playerIcon: {fileID: -8927894924626755466, guid: d7f42a4fec6e96b49b323c6ce0ade327, type: 3}
+    xp: 0
+    maxXp: 0
+    recoveryLife: 20
+    SecondSkillLevel: -1
+    input:
+    - key: 97
+      attackName: 
+      typeAttack: 0
+      damage: 80
+      attackAnimName: AttackNormal
+      reload: 2.8
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 0
+      iconAttack: {fileID: 0}
+      attackPrefs: {fileID: 0}
+      attackSound: {fileID: 8300000, guid: 11993d51f52b2564fac53682fae3ff78, type: 3}
+      attackDistance: 0.5
+  - id: 0
+    name: Skeletal Marksman
+    rarity: 1
+    idMonster: 12
+    level: 24
+    currentLife: 29
+    startLife: 0
+    maxLife: 420
+    defense: 7
+    speed: 2.4
+    jump: 2.4
+    canFly: 0
+    getXpMonster: 55
+    money: 230
+    catchChance: 0
+    spawnChance: 55
+    searchPlayerDistance: 8
+    playerPrefs: {fileID: 0}
+    playerIcon: {fileID: 2562705092214080906, guid: 3a7969fdf165bc14c8c7e52a6f4cedb3, type: 3}
+    xp: 0
+    maxXp: 0
+    recoveryLife: 20
+    SecondSkillLevel: -1
+    input:
+    - key: 97
+      attackName: 
+      typeAttack: 1
+      damage: 110
+      attackAnimName: AttackNormal
+      reload: 2
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 0
+      iconAttack: {fileID: 0}
+      attackPrefs: {fileID: 6295117995498964381, guid: cd9b3bbc08e3bf94caaaabde25239e5d, type: 3}
+      attackSound: {fileID: 8300000, guid: 7fad6d573e1ab4b4790eddc6b423baca, type: 3}
+      attackDistance: 6.5
+  - id: 0
+    name: Skeletal Hewer
+    rarity: 1
+    idMonster: 13
+    level: 27
+    currentLife: 29
+    startLife: 0
+    maxLife: 520
+    defense: 7
+    speed: 2
+    jump: 2
+    canFly: 0
+    getXpMonster: 60
+    money: 220
+    catchChance: 0
+    spawnChance: 45
+    searchPlayerDistance: 8
+    playerPrefs: {fileID: 0}
+    playerIcon: {fileID: 3381358691179222618, guid: eb374640b637cf1448f3c2a8c80a33e5, type: 3}
+    xp: 0
+    maxXp: 0
+    recoveryLife: 20
+    SecondSkillLevel: -1
+    input:
+    - key: 97
+      attackName: 
+      typeAttack: 0
+      damage: 85
+      attackAnimName: AttackNormal
+      reload: 3
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 0
+      iconAttack: {fileID: 0}
+      attackPrefs: {fileID: 0}
+      attackSound: {fileID: 8300000, guid: 7fad6d573e1ab4b4790eddc6b423baca, type: 3}
+      attackDistance: 0.6
+  - id: 4
+    name: Blizzard Falcon
+    rarity: 1
+    idMonster: 14
+    level: 31
+    currentLife: 29
+    startLife: 600
+    maxLife: 600
+    defense: 20
+    speed: 2.7
+    jump: 2.3
+    canFly: 1
+    getXpMonster: 55
+    money: 250
+    catchChance: 20
+    spawnChance: 70
+    searchPlayerDistance: 8
+    playerPrefs: {fileID: 6964587341683584259, guid: d05152c742955834bb69c323ea1f6f27, type: 3}
+    playerIcon: {fileID: -8237849510087050089, guid: 85a878b36d90c8140a12607ec6df4a19, type: 3}
+    xp: 0
+    maxXp: 3800
+    recoveryLife: 20
+    SecondSkillLevel: 38
+    input:
+    - key: 97
+      attackName: Glacier Spike
+      typeAttack: 1
+      damage: 170
+      attackAnimName: AttackNormal
+      reload: 3.5
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 1155852682467828429, guid: 73ec18f03d526d04dabda6afc3611362, type: 3}
+      attackPrefs: {fileID: 1981213448969990132, guid: 870868259e867164ca899bb4a3ad7f91, type: 3}
+      attackSound: {fileID: 8300000, guid: d47adfc68bddb2743a1b8412fee6d0a5, type: 3}
+      attackDistance: 7
+    - key: 122
+      attackName: Hailstorm Lance
+      typeAttack: 1
+      damage: 310
+      attackAnimName: AttackNormal
+      reload: 7
+      addPosAttack: 0.2
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 7572744698042152097, guid: 73ec18f03d526d04dabda6afc3611362, type: 3}
+      attackPrefs: {fileID: 1671221379782970419, guid: d315b9217bf77204eb84cfe09d144454, type: 3}
+      attackSound: {fileID: 8300000, guid: be2e0007895b42c4b9a4ac88d353467b, type: 3}
+      attackDistance: 7
+  - id: 5
+    name: Frostspirit
+    rarity: 2
+    idMonster: 15
+    level: 35
+    currentLife: 29
+    startLife: 750
+    maxLife: 750
+    defense: 40
+    speed: 2.4
+    jump: 3
+    canFly: 0
+    getXpMonster: 70
+    money: 500
+    catchChance: 7
+    spawnChance: 15
+    searchPlayerDistance: 8
+    playerPrefs: {fileID: 5272530138020874524, guid: 13d61f90e5cf68049be0d17d981b5399, type: 3}
+    playerIcon: {fileID: 1133929688160460912, guid: 2c4da929e60859c47a7ed24446f4ddbb, type: 3}
+    xp: 0
+    maxXp: 7600
+    recoveryLife: 25
+    SecondSkillLevel: 43
+    input:
+    - key: 97
+      attackName: Cryo Blast
+      typeAttack: 4
+      damage: 280
+      attackAnimName: AttackNormal
+      reload: 3
+      addPosAttack: 0.2
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 5145522324910537863, guid: 73ec18f03d526d04dabda6afc3611362, type: 3}
+      attackPrefs: {fileID: 5346957225571697400, guid: 08e125ac6befe0c419dcf3c9b5344c0f, type: 3}
+      attackSound: {fileID: 8300000, guid: be2e0007895b42c4b9a4ac88d353467b, type: 3}
+      attackDistance: 6
+    - key: 122
+      attackName: Snowfall Earthquake
+      typeAttack: 4
+      damage: 750
+      attackAnimName: AttackNormal
+      reload: 4
+      addPosAttack: 3.2
+      addPosAttackY: 0.3
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 21300000, guid: e99d29d56675ee94f9d89a51854a237b, type: 3}
+      attackPrefs: {fileID: 3903858693784653072, guid: 601b795d3ea15a248bfc40529f7522ca, type: 3}
+      attackSound: {fileID: 8300000, guid: 65998284a6547de4bbfee74147a59179, type: 3}
+      attackDistance: 4
+    - key: 101
+      attackName: Froststorm Tempest
+      typeAttack: 4
+      damage: 1000
+      attackAnimName: AttackNormal
+      reload: 13
+      addPosAttack: -0.25
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 21300000, guid: 9bfa27cce4545ac4db5ed86575d1e39e, type: 3}
+      attackPrefs: {fileID: 1197365395954208202, guid: ad1a51ea57cc02544bcffa2ea65c3383, type: 3}
+      attackSound: {fileID: 8300000, guid: 7fad6d573e1ab4b4790eddc6b423baca, type: 3}
+      attackDistance: 7
+  - id: 0
+    name: Froststone Colossus
+    rarity: 1
+    idMonster: 16
+    level: 34
+    currentLife: 29
+    startLife: 0
+    maxLife: 900
+    defense: 60
+    speed: 2
+    jump: 1.7
+    canFly: 0
+    getXpMonster: 60
+    money: 260
+    catchChance: 0
+    spawnChance: 65
+    searchPlayerDistance: 8
+    playerPrefs: {fileID: 0}
+    playerIcon: {fileID: -7284448501580945939, guid: d797fbda0136ff34f9656265ae5e01ee, type: 3}
+    xp: 0
+    maxXp: 0
+    recoveryLife: 15
+    SecondSkillLevel: 34
+    input:
+    - key: 97
+      attackName: 
+      typeAttack: 0
+      damage: 80
+      attackAnimName: AttackNormal
+      reload: 3
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 0}
+      attackPrefs: {fileID: 0}
+      attackSound: {fileID: 8300000, guid: 11993d51f52b2564fac53682fae3ff78, type: 3}
+      attackDistance: 0.9
+    - key: 122
+      attackName: 
+      typeAttack: 3
+      damage: 0
+      attackAnimName: AttackNormal
+      reload: 15
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 0
+      iconAttack: {fileID: 0}
+      attackPrefs: {fileID: 111954532055127997, guid: b7cda0a970586b74386bd88aa7731837, type: 3}
+      attackSound: {fileID: 8300000, guid: 7fad6d573e1ab4b4790eddc6b423baca, type: 3}
+      attackDistance: 2
+  - id: 6
+    name: Igniswing
+    rarity: 2
+    idMonster: 17
+    level: 36
+    currentLife: 29
+    startLife: 810
+    maxLife: 810
+    defense: 30
+    speed: 2.5
+    jump: 2.1
+    canFly: 1
+    getXpMonster: 60
+    money: 300
+    catchChance: 15
+    spawnChance: 30
+    searchPlayerDistance: 8
+    playerPrefs: {fileID: 584334085491481859, guid: 31cc1ab382c99074584344ad79d15415, type: 3}
+    playerIcon: {fileID: -7162847911029854707, guid: e5a764b01d36b604f867454d522fe3cc, type: 3}
+    xp: 0
+    maxXp: 84000
+    recoveryLife: 30
+    SecondSkillLevel: 47
+    input:
+    - key: 97
+      attackName: Pyroclasmic Sphere
+      typeAttack: 1
+      damage: 250
+      attackAnimName: AttackNormal
+      reload: 3
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 21300000, guid: 64c4aba5da9e3474ba38b328ddc61772, type: 3}
+      attackPrefs: {fileID: 1402939242089588916, guid: c16169aabeee0a74188f5c7f0911410c, type: 3}
+      attackSound: {fileID: 8300000, guid: c55d4d463c04607459c8e4f454f48ea6, type: 3}
+      attackDistance: 5
+    - key: 122
+      attackName: Ignis Revival
+      typeAttack: 2
+      damage: 800
+      attackAnimName: 
+      reload: 20
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 21300000, guid: d8985622361e92e40975a46e4259e74e, type: 3}
+      attackPrefs: {fileID: 448044442627955705, guid: b4fcae6c2af9316418b5c3e4fef79a43, type: 3}
+      attackSound: {fileID: 8300000, guid: 027331266d02ac744b944b1c1d849cae, type: 3}
+      attackDistance: 2
+  - id: 7
+    name: Pyrospirite
+    rarity: 2
+    idMonster: 18
+    level: 39
+    currentLife: 29
+    startLife: 830
+    maxLife: 830
+    defense: 50
+    speed: 2.2
+    jump: 3
+    canFly: 0
+    getXpMonster: 80
+    money: 400
+    catchChance: 15
+    spawnChance: 20
+    searchPlayerDistance: 8
+    playerPrefs: {fileID: 702169028702667544, guid: 51fdb7beda667db458f0b5083a65ab5f, type: 3}
+    playerIcon: {fileID: -5354795332323724086, guid: 7ebadd0d5015141409088aae43833c33, type: 3}
+    xp: 0
+    maxXp: 12000
+    recoveryLife: 25
+    SecondSkillLevel: -1
+    input:
+    - key: 97
+      attackName: Elemental Blitz
+      typeAttack: 4
+      damage: 350
+      attackAnimName: AttackNormal
+      reload: 1.5
+      addPosAttack: 0.8
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 21300000, guid: efed68c9cfba58940838532a5a8abd33, type: 3}
+      attackPrefs: {fileID: 8100823291147879309, guid: 70cde4fb6f1c5694786c4273fe3633a9, type: 3}
+      attackSound: {fileID: 8300000, guid: 35b009c020a744b488aeab2e94ff9ef2, type: 3}
+      attackDistance: 2
+  - id: 0
+    name: Ignistone Sentinel
+    rarity: 2
+    idMonster: 19
+    level: 38
+    currentLife: 29
+    startLife: 0
+    maxLife: 1150
+    defense: 70
+    speed: 1.8
+    jump: 2
+    canFly: 0
+    getXpMonster: 60
+    money: 350
+    catchChance: 0
+    spawnChance: 60
+    searchPlayerDistance: 6.5
+    playerPrefs: {fileID: 0}
+    playerIcon: {fileID: -3030794605390870092, guid: fa98ef7b7a0910045ab22867b8e19cc5, type: 3}
+    xp: 0
+    maxXp: 0
+    recoveryLife: 15
+    SecondSkillLevel: -1
+    input:
+    - key: 97
+      attackName: 
+      typeAttack: 0
+      damage: 100
+      attackAnimName: AttackNormal
+      reload: 3
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 0}
+      attackPrefs: {fileID: 0}
+      attackSound: {fileID: 8300000, guid: 11993d51f52b2564fac53682fae3ff78, type: 3}
+      attackDistance: 1
+  - id: 0
+    name: Infernal Harbinger
+    rarity: 2
+    idMonster: 20
+    level: 45
+    currentLife: 29
+    startLife: 0
+    maxLife: 1700
+    defense: 80
+    speed: 2.5
+    jump: 2
+    canFly: 1
+    getXpMonster: 90
+    money: 400
+    catchChance: 0
+    spawnChance: 100
+    searchPlayerDistance: 7
+    playerPrefs: {fileID: 0}
+    playerIcon: {fileID: 2313837761210525087, guid: 801ef84c359335f479160cc0dbbf6261, type: 3}
+    xp: 0
+    maxXp: 0
+    recoveryLife: 20
+    SecondSkillLevel: -1
+    input:
+    - key: 97
+      attackName: 
+      typeAttack: 0
+      damage: 800
+      attackAnimName: AttackNormal
+      reload: 3
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 0}
+      attackPrefs: {fileID: 0}
+      attackSound: {fileID: 8300000, guid: 11993d51f52b2564fac53682fae3ff78, type: 3}
+      attackDistance: 0.7
+  - id: 0
+    name: Skeletal Bladekeeper
+    rarity: 1
+    idMonster: 21
+    level: 49
+    currentLife: 29
+    startLife: 0
+    maxLife: 2000
+    defense: 100
+    speed: 2.4
+    jump: 3
+    canFly: 0
+    getXpMonster: 110
+    money: 420
+    catchChance: 0
+    spawnChance: 70
+    searchPlayerDistance: 7
+    playerPrefs: {fileID: 0}
+    playerIcon: {fileID: -6554096600908258872, guid: 8443974e60c68344d89cf6a2e23d9b88, type: 3}
+    xp: 0
+    maxXp: 0
+    recoveryLife: 20
+    SecondSkillLevel: -1
+    input:
+    - key: 97
+      attackName: 
+      typeAttack: 0
+      damage: 700
+      attackAnimName: AttackNormal
+      reload: 3
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 0}
+      attackPrefs: {fileID: 0}
+      attackSound: {fileID: 8300000, guid: 11993d51f52b2564fac53682fae3ff78, type: 3}
+      attackDistance: 0.6
+  - id: 0
+    name: Spectral Shrouder
+    rarity: 2
+    idMonster: 22
+    level: 53
+    currentLife: 29
+    startLife: 0
+    maxLife: 2300
+    defense: 100
+    speed: 2.6
+    jump: 3
+    canFly: 0
+    getXpMonster: 130
+    money: 560
+    catchChance: 0
+    spawnChance: 40
+    searchPlayerDistance: 8
+    playerPrefs: {fileID: 0}
+    playerIcon: {fileID: 1087677662482844169, guid: 1c4ad01a65639eb4289ac03e409ef74a, type: 3}
+    xp: 0
+    maxXp: 0
+    recoveryLife: 20
+    SecondSkillLevel: 53
+    input:
+    - key: 97
+      attackName: 
+      typeAttack: 1
+      damage: 450
+      attackAnimName: AttackNormal
+      reload: 2.8
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 0}
+      attackPrefs: {fileID: 1683760896081475830, guid: 7ecde24b9b46cbd4aad843d20464c470, type: 3}
+      attackSound: {fileID: 8300000, guid: 11993d51f52b2564fac53682fae3ff78, type: 3}
+      attackDistance: 5
+    - key: 97
+      attackName: 
+      typeAttack: 1
+      damage: 650
+      attackAnimName: AttackNormal
+      reload: 6
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 0}
+      attackPrefs: {fileID: 7170084204058085584, guid: 9db9e808d6bad0441a4ff0a3fd320a05, type: 3}
+      attackSound: {fileID: 8300000, guid: 11993d51f52b2564fac53682fae3ff78, type: 3}
+      attackDistance: 6
+  - id: 0
+    name: Tombstone Warden
+    rarity: 2
+    idMonster: 23
+    level: 55
+    currentLife: 29
+    startLife: 0
+    maxLife: 2700
+    defense: 120
+    speed: 2
+    jump: 1.8
+    canFly: 0
+    getXpMonster: 120
+    money: 450
+    catchChance: 0
+    spawnChance: 70
+    searchPlayerDistance: 6
+    playerPrefs: {fileID: 0}
+    playerIcon: {fileID: -4815955739609092227, guid: e31d5e4a14d59a64f8c335d67c0db25a, type: 3}
+    xp: 0
+    maxXp: 0
+    recoveryLife: 20
+    SecondSkillLevel: -1
+    input:
+    - key: 97
+      attackName: 
+      typeAttack: 0
+      damage: 200
+      attackAnimName: AttackNormal
+      reload: 2
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 0}
+      attackPrefs: {fileID: 0}
+      attackSound: {fileID: 8300000, guid: 11993d51f52b2564fac53682fae3ff78, type: 3}
+      attackDistance: 1
+  - id: 8
+    name: Geoshield Ravager
+    rarity: 3
+    idMonster: 24
+    level: 70
+    currentLife: 29
+    startLife: 4000
+    maxLife: 4000
+    defense: 150
+    speed: 2.6
+    jump: 2.4
+    canFly: 1
+    getXpMonster: 300
+    money: 1000
+    catchChance: 3
+    spawnChance: 100
+    searchPlayerDistance: 10
+    playerPrefs: {fileID: 6970477689742209521, guid: 15e0ef9321552914a9e4c93f481e4a70, type: 3}
+    playerIcon: {fileID: -1028177946785651622, guid: 7a593e9a1cfa5cb42bc8f8c8e84706aa, type: 3}
+    xp: 0
+    maxXp: 77805
+    recoveryLife: 30
+    SecondSkillLevel: 70
+    input:
+    - key: 97
+      attackName: Earthshatter Cleave
+      typeAttack: 0
+      damage: 800
+      attackAnimName: AttackNormal
+      reload: 1.5
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 21300000, guid: 61c3b26c29a21554fbb25e6647e9dfa0, type: 3}
+      attackPrefs: {fileID: 0}
+      attackSound: {fileID: 8300000, guid: a0571b158764c5741a17f420c359c4ab, type: 3}
+      attackDistance: 0.9
+    - key: 122
+      attackName: Darkened Nebula Strike
+      typeAttack: 1
+      damage: 1100
+      attackAnimName: AttackSpecial
+      reload: 4.5
+      addPosAttack: 0.5
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 4945731398886644522, guid: 508ff54c862e347459a48013b01f3daa, type: 3}
+      attackPrefs: {fileID: 7170084204058085584, guid: 9db9e808d6bad0441a4ff0a3fd320a05, type: 3}
+      attackSound: {fileID: 8300000, guid: 09e29f26898d9c74d939370ea71fc30b, type: 3}
+      attackDistance: 6
+    - key: 101
+      attackName: Umbral Aura Eruption
+      typeAttack: 4
+      damage: 1300
+      attackAnimName: AttackSpecial
+      reload: 8
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 21300000, guid: ef5d264dfc1954343adaef161e855cd1, type: 3}
+      attackPrefs: {fileID: 4065318087118063013, guid: 9d495be6cb5fea749aebeb4bc117cbe4, type: 3}
+      attackSound: {fileID: 8300000, guid: 785c31f09c6bb9f4f909dbec147ed5fd, type: 3}
+      attackDistance: 6
+  - id: 0
+    name: Azurestone Warden
+    rarity: 2
+    idMonster: 25
+    level: 70
+    currentLife: 29
+    startLife: 0
+    maxLife: 6000
+    defense: 200
+    speed: 2
+    jump: 2
+    canFly: 0
+    getXpMonster: 450
+    money: 600
+    catchChance: 0
+    spawnChance: 100
+    searchPlayerDistance: 7
+    playerPrefs: {fileID: 0}
+    playerIcon: {fileID: -3758288200059882381, guid: c73f329837dae514287bfc40ace22e4e, type: 3}
+    xp: 0
+    maxXp: 0
+    recoveryLife: 20
+    SecondSkillLevel: -1
+    input:
+    - key: 97
+      attackName: 
+      typeAttack: 0
+      damage: 400
+      attackAnimName: AttackNormal
+      reload: 2.5
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 21300000, guid: 61c3b26c29a21554fbb25e6647e9dfa0, type: 3}
+      attackPrefs: {fileID: 0}
+      attackSound: {fileID: 8300000, guid: 11993d51f52b2564fac53682fae3ff78, type: 3}
+      attackDistance: 0.8
+  - id: 0
+    name: Axesworn Minotaur
+    rarity: 3
+    idMonster: 26
+    level: 73
+    currentLife: 29
+    startLife: 0
+    maxLife: 5700
+    defense: 175
+    speed: 3
+    jump: 3
+    canFly: 0
+    getXpMonster: 470
+    money: 610
+    catchChance: 0
+    spawnChance: 70
+    searchPlayerDistance: 10
+    playerPrefs: {fileID: 0}
+    playerIcon: {fileID: 1197738727056783484, guid: 29c57bb03459fc74ebc5b5320fba7c1a, type: 3}
+    xp: 0
+    maxXp: 0
+    recoveryLife: 20
+    SecondSkillLevel: 73
+    input:
+    - key: 97
+      attackName: 
+      typeAttack: 0
+      damage: 1100
+      attackAnimName: AttackNormal
+      reload: 2
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 0}
+      attackPrefs: {fileID: 0}
+      attackSound: {fileID: 8300000, guid: 11993d51f52b2564fac53682fae3ff78, type: 3}
+      attackDistance: 0.8
+    - key: 97
+      attackName: 
+      typeAttack: 1
+      damage: 1400
+      attackAnimName: 
+      reload: 5
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 0}
+      attackPrefs: {fileID: 7170084204058085584, guid: 9db9e808d6bad0441a4ff0a3fd320a05, type: 3}
+      attackSound: {fileID: 8300000, guid: 11993d51f52b2564fac53682fae3ff78, type: 3}
+      attackDistance: 4
+  - id: 0
+    name: Pitbound Millipede
+    rarity: 2
+    idMonster: 27
+    level: 62
+    currentLife: 29
+    startLife: 0
+    maxLife: 2800
+    defense: 150
+    speed: 0
+    jump: 0
+    canFly: 0
+    getXpMonster: 190
+    money: 540
+    catchChance: 0
+    spawnChance: 70
+    searchPlayerDistance: 10
+    playerPrefs: {fileID: 0}
+    playerIcon: {fileID: 5128110258912305990, guid: 653941fe3a6fdfe44806ba0dadd45f7c, type: 3}
+    xp: 0
+    maxXp: 0
+    recoveryLife: 20
+    SecondSkillLevel: 62
+    input:
+    - key: 97
+      attackName: 
+      typeAttack: 0
+      damage: 700
+      attackAnimName: AttackNormal
+      reload: 1
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 0}
+      attackPrefs: {fileID: 0}
+      attackSound: {fileID: 8300000, guid: 11993d51f52b2564fac53682fae3ff78, type: 3}
+      attackDistance: 0.8
+    - key: 97
+      attackName: 
+      typeAttack: 1
+      damage: 1000
+      attackAnimName: 
+      reload: 3
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 0}
+      attackPrefs: {fileID: 7170084204058085584, guid: 9db9e808d6bad0441a4ff0a3fd320a05, type: 3}
+      attackSound: {fileID: 8300000, guid: 11993d51f52b2564fac53682fae3ff78, type: 3}
+      attackDistance: 6
+  - id: 0
+    name: Predaplant
+    rarity: 2
+    idMonster: 28
+    level: 58
+    currentLife: 29
+    startLife: 0
+    maxLife: 2500
+    defense: 100
+    speed: 0
+    jump: 0
+    canFly: 0
+    getXpMonster: 190
+    money: 560
+    catchChance: 0
+    spawnChance: 100
+    searchPlayerDistance: 10
+    playerPrefs: {fileID: 0}
+    playerIcon: {fileID: 6552305520123636053, guid: 9804677ba5de6bf4396fdc57fb7c40aa, type: 3}
+    xp: 0
+    maxXp: 0
+    recoveryLife: 20
+    SecondSkillLevel: 58
+    input:
+    - key: 97
+      attackName: 
+      typeAttack: 0
+      damage: 650
+      attackAnimName: AttackNormal
+      reload: 1.5
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 0}
+      attackPrefs: {fileID: 0}
+      attackSound: {fileID: 8300000, guid: 11993d51f52b2564fac53682fae3ff78, type: 3}
+      attackDistance: 0.8
+    - key: 97
+      attackName: 
+      typeAttack: 1
+      damage: 850
+      attackAnimName: 
+      reload: 4
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 0}
+      attackPrefs: {fileID: 7170084204058085584, guid: 9db9e808d6bad0441a4ff0a3fd320a05, type: 3}
+      attackSound: {fileID: 8300000, guid: 11993d51f52b2564fac53682fae3ff78, type: 3}
+      attackDistance: 6
+  - id: 0
+    name: Mummified Coronarch
+    rarity: 3
+    idMonster: 29
+    level: 81
+    currentLife: 29
+    startLife: 0
+    maxLife: 10000
+    defense: 200
+    speed: 3.2
+    jump: 3
+    canFly: 0
+    getXpMonster: 500
+    money: 650
+    catchChance: 0
+    spawnChance: 80
+    searchPlayerDistance: 8
+    playerPrefs: {fileID: 0}
+    playerIcon: {fileID: -5366673871387790890, guid: 4c4b5aa11ebcff441a5051fd2c436c85, type: 3}
+    xp: 0
+    maxXp: 0
+    recoveryLife: 20
+    SecondSkillLevel: -1
+    input:
+    - key: 97
+      attackName: 
+      typeAttack: 0
+      damage: 2800
+      attackAnimName: AttackNormal
+      reload: 1
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 0
+      iconAttack: {fileID: 0}
+      attackPrefs: {fileID: 0}
+      attackSound: {fileID: 8300000, guid: 11993d51f52b2564fac53682fae3ff78, type: 3}
+      attackDistance: 0.6
+    - key: 97
+      attackName: 
+      typeAttack: 1
+      damage: 3200
+      attackAnimName: 
+      reload: 3.5
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 0
+      iconAttack: {fileID: 0}
+      attackPrefs: {fileID: 7729922954399306308, guid: 65d0b7abbe947dc4bab5f60d9e6fe79c, type: 3}
+      attackSound: {fileID: 8300000, guid: 11993d51f52b2564fac53682fae3ff78, type: 3}
+      attackDistance: 6
+  - id: 9
+    name: Infernal Minotaur
+    rarity: 4
+    idMonster: 30
+    level: 85
+    currentLife: 29
+    startLife: 13000
+    maxLife: 13000
+    defense: 300
+    speed: 3
+    jump: 3
+    canFly: 0
+    getXpMonster: 520
+    money: 800
+    catchChance: 5
+    spawnChance: 10
+    searchPlayerDistance: 8
+    playerPrefs: {fileID: 3447489408148458031, guid: bce1681d69b3c334e9e86bfa279d924b, type: 3}
+    playerIcon: {fileID: -4648024824776022598, guid: f9ad072b2d927c34da8b92eb496c4400, type: 3}
+    xp: 0
+    maxXp: 242054
+    recoveryLife: 30
+    SecondSkillLevel: 85
+    input:
+    - key: 97
+      attackName: Cursed Orb
+      typeAttack: 1
+      damage: 4200
+      attackAnimName: AttackNormal
+      reload: 2
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 21300000, guid: 6e7c28878d1016344bb37b28d6d2cf9d, type: 3}
+      attackPrefs: {fileID: 7729922954399306308, guid: 65d0b7abbe947dc4bab5f60d9e6fe79c, type: 3}
+      attackSound: {fileID: 8300000, guid: 09e29f26898d9c74d939370ea71fc30b, type: 3}
+      attackDistance: 5
+    - key: 122
+      attackName: Inferno Ignition
+      typeAttack: 4
+      damage: 4700
+      attackAnimName: AttackNormal
+      reload: 8
+      addPosAttack: 2
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 21300000, guid: f97745ef23d6f6943aee45e155f68044, type: 3}
+      attackPrefs: {fileID: 4426622658706450894, guid: 25cddfe7edc95f343a56546e2e518999, type: 3}
+      attackSound: {fileID: 8300000, guid: 41bfe519cb8612344aa843bec12f37ac, type: 3}
+      attackDistance: 5.5
+  - id: 0
+    name: Anubial Specter
+    rarity: 4
+    idMonster: 31
+    level: 86
+    currentLife: 29
+    startLife: 0
+    maxLife: 12000
+    defense: 280
+    speed: 2.8
+    jump: 3
+    canFly: 0
+    getXpMonster: 550
+    money: 700
+    catchChance: 0
+    spawnChance: 50
+    searchPlayerDistance: 7.5
+    playerPrefs: {fileID: 0}
+    playerIcon: {fileID: 4264317810600858832, guid: 756f41329df60544caa37ccde8c8ebff, type: 3}
+    xp: 0
+    maxXp: 0
+    recoveryLife: 20
+    SecondSkillLevel: 86
+    input:
+    - key: 97
+      attackName: 
+      typeAttack: 1
+      damage: 4000
+      attackAnimName: AttackNormal
+      reload: 1.5
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: -2728307199588235620, guid: c4f6737ca3330d244b911fa76f9d13ef, type: 3}
+      attackPrefs: {fileID: 452241092883950589, guid: 1210904b37b9d58438d9c26227e435ba, type: 3}
+      attackSound: {fileID: 8300000, guid: 11993d51f52b2564fac53682fae3ff78, type: 3}
+      attackDistance: 5
+    - key: 122
+      attackName: 
+      typeAttack: 1
+      damage: 4500
+      attackAnimName: AttackNormal
+      reload: 4
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 21300000, guid: 6e7c28878d1016344bb37b28d6d2cf9d, type: 3}
+      attackPrefs: {fileID: 7729922954399306308, guid: 65d0b7abbe947dc4bab5f60d9e6fe79c, type: 3}
+      attackSound: {fileID: 8300000, guid: 11993d51f52b2564fac53682fae3ff78, type: 3}
+      attackDistance: 6
+  - id: 10
+    name: Ragnarok
+    rarity: 4
+    idMonster: 32
+    level: 96
+    currentLife: 29
+    startLife: 25000
+    maxLife: 25000
+    defense: 400
+    speed: 3.2
+    jump: 2.8
+    canFly: 1
+    getXpMonster: 1000
+    money: 1000
+    catchChance: 1
+    spawnChance: 100
+    searchPlayerDistance: 10
+    playerPrefs: {fileID: 5930693942403110303, guid: e337f5db2db28374093840199d2c75c0, type: 3}
+    playerIcon: {fileID: -1175963501181321944, guid: 71a155602ee48d24f921f86ae0369d16, type: 3}
+    xp: 0
+    maxXp: 632979
+    recoveryLife: 20
+    SecondSkillLevel: 96
+    input:
+    - key: 97
+      attackName: Cursed Orb Dragonic
+      typeAttack: 1
+      damage: 10000
+      attackAnimName: AttackNormal
+      reload: 1.5
+      addPosAttack: 0
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 21300000, guid: 6e7c28878d1016344bb37b28d6d2cf9d, type: 3}
+      attackPrefs: {fileID: 7729922954399306308, guid: 65d0b7abbe947dc4bab5f60d9e6fe79c, type: 3}
+      attackSound: {fileID: 8300000, guid: 09e29f26898d9c74d939370ea71fc30b, type: 3}
+      attackDistance: 7
+    - key: 122
+      attackName: Draconic Detonation
+      typeAttack: 1
+      damage: 13000
+      attackAnimName: AttackNormal
+      reload: 4
+      addPosAttack: 1
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 21300000, guid: efed68c9cfba58940838532a5a8abd33, type: 3}
+      attackPrefs: {fileID: 8100823291147879309, guid: 70cde4fb6f1c5694786c4273fe3633a9, type: 3}
+      attackSound: {fileID: 8300000, guid: 35b009c020a744b488aeab2e94ff9ef2, type: 3}
+      attackDistance: 6
+    - key: 101
+      attackName: Ignition Tempest
+      typeAttack: 4
+      damage: 20000
+      attackAnimName: 
+      reload: 10
+      addPosAttack: -0.25
+      addPosAttackY: 0
+      isAttack: 0
+      canUse: 1
+      iconAttack: {fileID: 21300000, guid: 194476767b9db0749b5e87cf23b32436, type: 3}
+      attackPrefs: {fileID: 4668694021527735776, guid: 5ed58ebb73fbac347888aa2e56ea32b8, type: 3}
+      attackSound: {fileID: 8300000, guid: 42d1c9a20680f0b41b6e3ee1f539e7e2, type: 3}
+      attackDistance: 4

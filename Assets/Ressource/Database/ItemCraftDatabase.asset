@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb59c56bb01e613469c866ab0932db46, type: 3}
+  m_Name: ItemCraftDatabase
+  m_EditorClassIdentifier: 
+  itemCraft:
+  - idCraftItem: 4
+    craftAmount: 10
+    itemCraft:
+    - idItemToCraft: 44
+      amountCraft: 10
+    - idItemToCraft: 43
+      amountCraft: 1
+  - idCraftItem: 5
+    craftAmount: 10
+    itemCraft:
+    - idItemToCraft: 49
+      amountCraft: 10
+    - idItemToCraft: 43
+      amountCraft: 2
+  - idCraftItem: 6
+    craftAmount: 10
+    itemCraft:
+    - idItemToCraft: 53
+      amountCraft: 15
+    - idItemToCraft: 43
+      amountCraft: 3
+  - idCraftItem: 7
+    craftAmount: 10
+    itemCraft:
+    - idItemToCraft: 61
+      amountCraft: 10
+    - idItemToCraft: 43
+      amountCraft: 4
+  - idCraftItem: 8
+    craftAmount: 10
+    itemCraft:
+    - idItemToCraft: 58
+      amountCraft: 10
+    - idItemToCraft: 43
+      amountCraft: 5
+  - idCraftItem: 9
+    craftAmount: 10
+    itemCraft:
+    - idItemToCraft: 64
+      amountCraft: 10
+    - idItemToCraft: 43
+      amountCraft: 6
+  - idCraftItem: 10
+    craftAmount: 5
+    itemCraft:
+    - idItemToCraft: 66
+      amountCraft: 10
+    - idItemToCraft: 43
+      amountCraft: 7
+  - idCraftItem: 11
+    craftAmount: 5
+    itemCraft:
+    - idItemToCraft: 43
+      amountCraft: 8
+    - idItemToCraft: 70
+      amountCraft: 5
+  - idCraftItem: 12
+    craftAmount: 5
+    itemCraft:
+    - idItemToCraft: 43
+      amountCraft: 10
+    - idItemToCraft: 78
+      amountCraft: 10
+  - idCraftItem: 17
+    craftAmount: 10
+    itemCraft:
+    - idItemToCraft: 82
+      amountCraft: 10
+    - idItemToCraft: 41
+      amountCraft: 50
+  - idCraftItem: 18
+    craftAmount: 5
+    itemCraft:
+    - idItemToCraft: 62
+      amountCraft: 10
+    - idItemToCraft: 86
+      amountCraft: 5
+    - idItemToCraft: 102
+      amountCraft: 10
+  - idCraftItem: 20
+    craftAmount: 10
+    itemCraft:
+    - idItemToCraft: 103
+      amountCraft: 8
+    - idItemToCraft: 63
+      amountCraft: 5
+  - idCraftItem: 21
+    craftAmount: 10
+    itemCraft:
+    - idItemToCraft: 77
+      amountCraft: 10
+    - idItemToCraft: 76
+      amountCraft: 10
+  - idCraftItem: 23
+    craftAmount: 10
+    itemCraft:
+    - idItemToCraft: 63
+      amountCraft: 10
+    - idItemToCraft: 41
+      amountCraft: 20
+  - idCraftItem: 24
+    craftAmount: 10
+    itemCraft:
+    - idItemToCraft: 73
+      amountCraft: 5
+    - idItemToCraft: 86
+      amountCraft: 5
+  - idCraftItem: 28
+    craftAmount: 5
+    itemCraft:
+    - idItemToCraft: 65
+      amountCraft: 2
+    - idItemToCraft: 104
+      amountCraft: 5
+  - idCraftItem: 29
+    craftAmount: 3
+    itemCraft:
+    - idItemToCraft: 104
+      amountCraft: 15
+    - idItemToCraft: 81
+      amountCraft: 10
+  - idCraftItem: 31
+    craftAmount: 10
+    itemCraft:
+    - idItemToCraft: 62
+      amountCraft: 10
+    - idItemToCraft: 41
+      amountCraft: 15
+  - idCraftItem: 32
+    craftAmount: 10
+    itemCraft:
+    - idItemToCraft: 62
+      amountCraft: 20
+    - idItemToCraft: 41
+      amountCraft: 40
+  - idCraftItem: 40
+    craftAmount: 10
+    itemCraft:
+    - idItemToCraft: 39
+      amountCraft: 10
+    - idItemToCraft: 41
+      amountCraft: 10
+  - idCraftItem: 45
+    craftAmount: 1
+    itemCraft:
+    - idItemToCraft: 44
+      amountCraft: 30
+    - idItemToCraft: 46
+      amountCraft: 10
+    - idItemToCraft: 47
+      amountCraft: 5
+  - idCraftItem: 59
+    craftAmount: 1
+    itemCraft:
+    - idItemToCraft: 71
+      amountCraft: 25
+    - idItemToCraft: 58
+      amountCraft: 10
+    - idItemToCraft: 61
+      amountCraft: 20
+  - idCraftItem: 89
+    craftAmount: 1
+    itemCraft:
+    - idItemToCraft: 51
+      amountCraft: 2
+    - idItemToCraft: 50
+      amountCraft: 10
+    - idItemToCraft: 90
+      amountCraft: 1
+  - idCraftItem: 90
+    craftAmount: 1
+    itemCraft:
+    - idItemToCraft: 63
+      amountCraft: 3
+    - idItemToCraft: 65
+      amountCraft: 3
+    - idItemToCraft: 91
+      amountCraft: 10
+  - idCraftItem: 92
+    craftAmount: 1
+    itemCraft:
+    - idItemToCraft: 59
+      amountCraft: 1
+    - idItemToCraft: 90
+      amountCraft: 1
+  - idCraftItem: 95
+    craftAmount: 1
+    itemCraft:
+    - idItemToCraft: 69
+      amountCraft: 5
+    - idItemToCraft: 73
+      amountCraft: 5
+    - idItemToCraft: 94
+      amountCraft: 15
+  - idCraftItem: 96
+    craftAmount: 1
+    itemCraft:
+    - idItemToCraft: 77
+      amountCraft: 10
+    - idItemToCraft: 79
+      amountCraft: 10
+    - idItemToCraft: 97
+      amountCraft: 20
+  - idCraftItem: 93
+    craftAmount: 1
+    itemCraft:
+    - idItemToCraft: 95
+      amountCraft: 1
+    - idItemToCraft: 59
+      amountCraft: 1
+    - idItemToCraft: 60
+      amountCraft: 20
+  - idCraftItem: 98
+    craftAmount: 1
+    itemCraft:
+    - idItemToCraft: 99
+      amountCraft: 1
+    - idItemToCraft: 80
+      amountCraft: 2
+    - idItemToCraft: 100
+      amountCraft: 1
+  - idCraftItem: 99
+    craftAmount: 1
+    itemCraft:
+    - idItemToCraft: 83
+      amountCraft: 10
+    - idItemToCraft: 84
+      amountCraft: 15
+    - idItemToCraft: 87
+      amountCraft: 5
+  - idCraftItem: 101
+    craftAmount: 1
+    itemCraft:
+    - idItemToCraft: 88
+      amountCraft: 3
+    - idItemToCraft: 80
+      amountCraft: 3
+    - idItemToCraft: 18
+      amountCraft: 10

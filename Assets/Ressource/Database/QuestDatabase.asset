@@ -1,0 +1,593 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8483513045c78d45ab773f382ac7fc5, type: 3}
+  m_Name: QuestDatabase
+  m_EditorClassIdentifier: 
+  quest:
+  - nameQuest: Welcome in World Monster
+    idDialogue: -1
+    newIdDungeon: 0
+    questType:
+    - typeOfQuest: 0
+      idObject: 0
+      amount: 1
+      name: Tristan
+      messageArea: Go left of town
+    money: 0
+    rewards:
+    - id: 1
+      amount: 1
+      isMonster: 1
+    - id: 14
+      amount: 10
+      isMonster: 0
+  - nameQuest: Beginning as a trainer
+    idDialogue: 1
+    newIdDungeon: 0
+    questType:
+    - typeOfQuest: 3
+      idObject: 1
+      amount: 1
+      name: 
+      messageArea: 
+    money: 0
+    rewards: []
+  - nameQuest: First Dungeon
+    idDialogue: -1
+    newIdDungeon: 0
+    questType:
+    - typeOfQuest: 1
+      idObject: 5
+      amount: 10
+      name: In the dungeon Ratking Catacombs
+      messageArea: 
+    - typeOfQuest: 4
+      idObject: 1
+      amount: 1
+      name: 
+      messageArea: 
+    money: 50
+    rewards:
+    - id: 1
+      amount: 5
+      isMonster: 0
+  - nameQuest: First Report
+    idDialogue: 2
+    newIdDungeon: 0
+    questType:
+    - typeOfQuest: 0
+      idObject: 0
+      amount: 1
+      name: Tristan
+      messageArea: Go left of town
+    money: 1500
+    rewards:
+    - id: 14
+      amount: 10
+      isMonster: 0
+  - nameQuest: Go to Sshop
+    idDialogue: 3
+    newIdDungeon: 2
+    questType:
+    - typeOfQuest: 6
+      idObject: 2
+      amount: 10
+      name: 
+      messageArea: Go left of town
+    - typeOfQuest: 6
+      idObject: 1
+      amount: 1
+      name: 
+      messageArea: 
+    money: 0
+    rewards: []
+  - nameQuest: Next Dungeon !
+    idDialogue: 4
+    newIdDungeon: 2
+    questType:
+    - typeOfQuest: 3
+      idObject: 2
+      amount: 1
+      name: 
+      messageArea: 
+    - typeOfQuest: 1
+      idObject: 2
+      amount: 20
+      name: 
+      messageArea: In the dungeon Foliage Enclave
+    - typeOfQuest: 1
+      idObject: 3
+      amount: 15
+      name: 
+      messageArea: In the dungeon Foliage Enclave
+    - typeOfQuest: 1
+      idObject: 4
+      amount: 10
+      name: 
+      messageArea: In the dungeon Foliage Enclave
+    money: 100
+    rewards:
+    - id: 38
+      amount: 10
+      isMonster: 0
+    - id: 35
+      amount: 5
+      isMonster: 0
+    - id: 25
+      amount: 1
+      isMonster: 0
+    - id: 39
+      amount: 10
+      isMonster: 0
+    - id: 40
+      amount: 8
+      isMonster: 0
+  - nameQuest: Craft Potion
+    idDialogue: 5
+    newIdDungeon: 0
+    questType:
+    - typeOfQuest: 7
+      idObject: 40
+      amount: 10
+      name: 
+      messageArea: Go to Forge to craft an item
+    money: 0
+    rewards: []
+  - nameQuest: Insect-Infested Forest Adventure
+    idDialogue: -1
+    newIdDungeon: 0
+    questType:
+    - typeOfQuest: 3
+      idObject: 3
+      amount: 1
+      name: 
+      messageArea: 
+    money: 0
+    rewards:
+    - id: 2
+      amount: 10
+      isMonster: 0
+  - nameQuest: Scorpion Hunt
+    idDialogue: -1
+    newIdDungeon: 0
+    questType:
+    - typeOfQuest: 2
+      idObject: 6
+      amount: 1
+      name: In the dungeon Whisperwood Sanctum
+      messageArea: 
+    - typeOfQuest: 1
+      idObject: 6
+      amount: 10
+      name: In the dungeon Whisperwood Sanctum
+      messageArea: 
+    money: 100
+    rewards: []
+  - nameQuest: Creature Pursuit
+    idDialogue: -1
+    newIdDungeon: 0
+    questType:
+    - typeOfQuest: 1
+      idObject: 7
+      amount: 20
+      name: 
+      messageArea: In the dungeon Whisperwood Sanctum
+    - typeOfQuest: 4
+      idObject: 3
+      amount: 1
+      name: 
+      messageArea: 
+    money: 100
+    rewards:
+    - id: 43
+      amount: 5
+      isMonster: 0
+    - id: 44
+      amount: 5
+      isMonster: 0
+  - nameQuest: Tristan's Silent Summons
+    idDialogue: 6
+    newIdDungeon: 0
+    questType:
+    - typeOfQuest: 0
+      idObject: 0
+      amount: 1
+      name: Tristan
+      messageArea: Go left of town
+    money: 0
+    rewards: []
+  - nameQuest: Tristan's Obsidian Appeal
+    idDialogue: 7
+    newIdDungeon: 4
+    questType:
+    - typeOfQuest: 5
+      idObject: 48
+      amount: 20
+      name: 
+      messageArea: In the dungeon Whisperwood Sanctum
+    - typeOfQuest: 5
+      idObject: 34
+      amount: 20
+      name: 
+      messageArea: In the Shop or in dungeon
+    - typeOfQuest: 0
+      idObject: 0
+      amount: 1
+      name: Tristan
+      messageArea: 
+    money: 100
+    rewards:
+    - id: 8
+      amount: 1
+      isMonster: 1
+    - id: 15
+      amount: 10
+      isMonster: 0
+  - nameQuest: Dungeon of Monstrous Trial
+    idDialogue: -1
+    newIdDungeon: 0
+    questType:
+    - typeOfQuest: 3
+      idObject: 4
+      amount: 1
+      name: 
+      messageArea: 
+    - typeOfQuest: 1
+      idObject: 7
+      amount: 10
+      name: 
+      messageArea: In the dungeon Whisperwood Sanctum
+    - typeOfQuest: 1
+      idObject: 8
+      amount: 10
+      name: 
+      messageArea: In the dungeon Whisperwood Sanctum
+    money: 100
+    rewards:
+    - id: 49
+      amount: 10
+      isMonster: 0
+  - nameQuest: Unveiling the Deeper Mysteries
+    idDialogue: -1
+    newIdDungeon: 0
+    questType:
+    - typeOfQuest: 1
+      idObject: 8
+      amount: 10
+      name: 
+      messageArea: In the dungeon Whisperwood Sanctum
+    - typeOfQuest: 1
+      idObject: 9
+      amount: 1
+      name: 
+      messageArea: In the dungeon Whisperwood Sanctum
+    - typeOfQuest: 4
+      idObject: 4
+      amount: 1
+      name: 
+      messageArea: 
+    money: 100
+    rewards:
+    - id: 51
+      amount: 2
+      isMonster: 0
+  - nameQuest: Delving into the Archives of Wisdom"
+    idDialogue: 8
+    newIdDungeon: 5
+    questType:
+    - typeOfQuest: 0
+      idObject: 0
+      amount: 1
+      name: Tristan
+      messageArea: 
+    money: 100
+    rewards:
+    - id: 51
+      amount: 2
+      isMonster: 0
+  - nameQuest: A New Expedition in the Catacomb Shadows
+    idDialogue: -1
+    newIdDungeon: 5
+    questType:
+    - typeOfQuest: 3
+      idObject: 5
+      amount: 1
+      name: 
+      messageArea: 
+    money: 0
+    rewards: []
+  - nameQuest: Unearthing the Subterranean Secrets (1)
+    idDialogue: -1
+    newIdDungeon: 0
+    questType:
+    - typeOfQuest: 1
+      idObject: 11
+      amount: 12
+      name: 
+      messageArea: In the dungeon Graveyard Crypt
+    money: 100
+    rewards: []
+  - nameQuest: Unearthing the Subterranean Secrets (2)
+    idDialogue: -1
+    newIdDungeon: 0
+    questType:
+    - typeOfQuest: 1
+      idObject: 11
+      amount: 15
+      name: 
+      messageArea: In the dungeon Graveyard Crypt
+    - typeOfQuest: 1
+      idObject: 12
+      amount: 10
+      name: 
+      messageArea: In the dungeon Graveyard Crypt
+    money: 100
+    rewards: []
+  - nameQuest: Unearthing the Subterranean Secrets (3)
+    idDialogue: -1
+    newIdDungeon: 6
+    questType:
+    - typeOfQuest: 1
+      idObject: 11
+      amount: 20
+      name: 
+      messageArea: In the dungeon Graveyard Crypt
+    - typeOfQuest: 1
+      idObject: 12
+      amount: 15
+      name: 
+      messageArea: In the dungeon Graveyard Crypt
+    - typeOfQuest: 1
+      idObject: 13
+      amount: 10
+      name: 
+      messageArea: In the dungeon Graveyard Crypt
+    - typeOfQuest: 4
+      idObject: 5
+      amount: 1
+      name: 
+      messageArea: 
+    money: 300
+    rewards:
+    - id: 53
+      amount: 15
+      isMonster: 0
+    - id: 54
+      amount: 5
+      isMonster: 0
+    - id: 55
+      amount: 20
+      isMonster: 0
+    - id: 56
+      amount: 15
+      isMonster: 0
+    - id: 57
+      amount: 10
+      isMonster: 0
+  - nameQuest: Uncovering the Mysteries of the Frozen City
+    idDialogue: -1
+    newIdDungeon: 6
+    questType:
+    - typeOfQuest: 3
+      idObject: 6
+      amount: 1
+      name: 
+      messageArea: 
+    - typeOfQuest: 1
+      idObject: 14
+      amount: 10
+      name: 
+      messageArea: In the dungeon Snowfall Citadel
+    - typeOfQuest: 1
+      idObject: 16
+      amount: 10
+      name: 
+      messageArea: In the dungeon Snowfall Citadel
+    money: 500
+    rewards:
+    - id: 60
+      amount: 10
+      isMonster: 0
+    - id: 61
+      amount: 10
+      isMonster: 0
+  - nameQuest: Unveiling the Last Enigmas
+    idDialogue: -1
+    newIdDungeon: 0
+    questType:
+    - typeOfQuest: 4
+      idObject: 6
+      amount: 1
+      name: 
+      messageArea: 
+    money: 0
+    rewards: []
+  - nameQuest: In Pursuit of a New Monstrosity
+    idDialogue: 9
+    newIdDungeon: 8
+    questType:
+    - typeOfQuest: 2
+      idObject: 17
+      amount: 1
+      name: 
+      messageArea: In the dungeon Volcanic Citadel
+    - typeOfQuest: 0
+      idObject: 0
+      amount: 1
+      name: "Clo\xE9"
+      messageArea: 
+    money: 0
+    rewards:
+    - id: 62
+      amount: 10
+      isMonster: 0
+    - id: 62
+      amount: 10
+      isMonster: 0
+  - nameQuest: In Search of the Seeker
+    idDialogue: 10
+    newIdDungeon: 9
+    questType:
+    - typeOfQuest: 0
+      idObject: 0
+      amount: 1
+      name: Albert
+      messageArea: in the dungeon Underdark Sanctum
+    money: 0
+    rewards: []
+  - nameQuest: Seeking Materials for the Scholar (1)
+    idDialogue: -1
+    newIdDungeon: 9
+    questType:
+    - typeOfQuest: 5
+      idObject: 66
+      amount: 10
+      name: 
+      messageArea: 
+    - typeOfQuest: 5
+      idObject: 67
+      amount: 5
+      name: 
+      messageArea: 
+    - typeOfQuest: 5
+      idObject: 69
+      amount: 1
+      name: 
+      messageArea: 
+    - typeOfQuest: 0
+      idObject: 0
+      amount: 1
+      name: Albert
+      messageArea: 
+    money: 1000
+    rewards:
+    - id: 95
+      amount: 1
+      isMonster: 0
+  - nameQuest: Seeking Materials for the Scholar (2)
+    idDialogue: -1
+    newIdDungeon: 9
+    questType:
+    - typeOfQuest: 5
+      idObject: 92
+      amount: 1
+      name: 
+      messageArea: 
+    - typeOfQuest: 0
+      idObject: 0
+      amount: 1
+      name: Albert
+      messageArea: 
+    money: 1000
+    rewards:
+    - id: 95
+      amount: 1
+      isMonster: 0
+  - nameQuest: Cemetery Cleanup
+    idDialogue: 11
+    newIdDungeon: 11
+    questType:
+    - typeOfQuest: 1
+      idObject: 21
+      amount: 20
+      name: 
+      messageArea: In the dungeon Cursed Catacombs
+    - typeOfQuest: 1
+      idObject: 22
+      amount: 5
+      name: 
+      messageArea: In the dungeon Cursed Catacombs
+    - typeOfQuest: 1
+      idObject: 23
+      amount: 20
+      name: 
+      messageArea: In the dungeon Cursed Catacombs
+    money: 2000
+    rewards:
+    - id: 8
+      amount: 5
+      isMonster: 0
+    - id: 16
+      amount: 10
+      isMonster: 0
+    - id: 73
+      amount: 8
+      isMonster: 0
+  - nameQuest: Cave's Creature
+    idDialogue: 12
+    newIdDungeon: 11
+    questType:
+    - typeOfQuest: 1
+      idObject: 24
+      amount: 1
+      name: 
+      messageArea: In the dungeon Underdark Sanctum
+    money: 1000
+    rewards:
+    - id: 80
+      amount: 2
+      isMonster: 0
+  - nameQuest: Deathly Desert Trek
+    idDialogue: -1
+    newIdDungeon: 13
+    questType:
+    - typeOfQuest: 2
+      idObject: 30
+      amount: 1
+      name: 
+      messageArea: In the dungeon Nightshade Sand Sanctum
+    money: 1000
+    rewards: []
+  - nameQuest: Albert's Message
+    idDialogue: 13
+    newIdDungeon: 14
+    questType:
+    - typeOfQuest: 0
+      idObject: 30
+      amount: 1
+      name: Albert
+      messageArea: in the dungeon Underdark Sanctum
+    money: 300
+    rewards:
+    - id: 13
+      amount: 1
+      isMonster: 0
+  - nameQuest: In Quest of the Legendary Dragon
+    idDialogue: -1
+    newIdDungeon: 14
+    questType:
+    - typeOfQuest: 3
+      idObject: 14
+      amount: 1
+      name: 
+      messageArea: 
+    - typeOfQuest: 1
+      idObject: 32
+      amount: 1
+      name: 
+      messageArea: 
+    - typeOfQuest: 0
+      idObject: 0
+      amount: 1
+      name: Tristan
+      messageArea: 
+    money: 3000
+    rewards:
+    - id: 88
+      amount: 1
+      isMonster: 0
+  - nameQuest: The End Game
+    idDialogue: 14
+    newIdDungeon: 20
+    questType: []
+    money: 0
+    rewards: []

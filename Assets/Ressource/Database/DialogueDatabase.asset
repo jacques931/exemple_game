@@ -1,0 +1,494 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab29931ad70fbbe40adad4d55bfdbc41, type: 3}
+  m_Name: DialogueDatabase
+  m_EditorClassIdentifier: 
+  dialogue:
+  - idDialogue: 0
+    playerStop: 1
+    scenes:
+    - name: System
+      dialogueTxt:
+      - Welcome to the captivating world of Monster World !
+    - name: System
+      dialogueTxt:
+      - In this 2D game, you will embody a young and fearless adventurer who has
+        discovered a world inhabited by amazing and mysterious creatures. Your mission
+        is to capture these fascinating monsters and train them to engage in combat.
+    - name: System
+      dialogueTxt:
+      - Your adventure begins in a quaint little town nestled in the heart of this
+        vast fantasy world. There, you will meet a wise and benevolent mentor who
+        will guide you on your quest to become the best monster trainer. They will
+        introduce you to the basics of capturing monsters and provide you with your
+        first Pokeball, a special device used for capturing creatures.
+    - name: System
+      dialogueTxt:
+      - The world is filled with diverse monsters, each with unique characteristics
+        and astonishing abilities. You will need to explore lush forests, rugged
+        mountains, deep oceans, and other extraordinary environments to encounter
+        these remarkable beings.
+    - name: System
+      dialogueTxt:
+      - Once you spot a monster you wish to capture, you'll engage in strategic combat.
+        You must weaken the monster while avoiding inflicting serious harm to increase
+        your chances of success. When the timing is right, carefully throw your Pokeball
+        and hope that it captures the monster.
+    - name: System
+      dialogueTxt:
+      - As you progress on your journey, you will encounter loyal friends who will
+        accompany you in your quest. Together, you will form an unbeatable team of
+        monster trainers and face increasingly challenging and exciting trials.
+    - name: System
+      dialogueTxt:
+      - Embark on the Monster World adventure and discover a breathtaking universe
+        filled with captivating creatures, epic battles, and unforgettable friendships.
+        Are you ready to take on the challenge and become the greatest monster trainer
+        of all time? The destiny of this magical world rests in your hands!
+    - name: System
+      dialogueTxt:
+      - For any additional information, go to the options (O) !
+  - idDialogue: 1
+    playerStop: 1
+    scenes:
+    - name: Tristan
+      dialogueTxt:
+      - Welcome to the town of Young Trainer, I am Tristan, the Guild Master. I oversee
+        all the adventurers in this town.
+    - name: Me
+      dialogueTxt:
+      - Nice to meet you, Tristan. I'm excited to be here and start my adventure.
+    - name: Tristan
+      dialogueTxt:
+      - On your first day, let me explain the role of an adventurer. A Trainer must
+        capture monsters to take possession of their bodies and then use them to
+        fight other monsters or capture new ones.
+    - name: Me
+      dialogueTxt:
+      - That sounds exciting but also risky. I'm ready to take on the challenge.
+    - name: Tristan
+      dialogueTxt:
+      - The guild also assigns missions to the Trainers to reduce monster attacks
+        and protect the villagers.
+    - name: Me
+      dialogueTxt:
+      - ' I will do my best to protect the villagers and complete these missions.'
+    - name: Tristan
+      dialogueTxt:
+      - Excellent! As a young Trainer, I will give you a young monster! Take good
+        care of it and train it to become the best Trainer. Maybe you'll be able
+        to capture even more powerful monsters, perhaps even the legendary dragon.
+    - name: Me
+      dialogueTxt:
+      - ' I am honored for this opportunity, Tristan. I will work hard to become
+        a skilled Trainer and defend this town.'
+  - idDialogue: 2
+    playerStop: 0
+    scenes:
+    - name: Me
+      dialogueTxt:
+      - Well, that dungeon turned out to be rather straightforward. My monster proved
+        to be much stronger than that feeble slime. Now, it's time to go see Tristan
+        and figure out my next move.
+    - name: Me
+      dialogueTxt:
+      - This victory has boosted my confidence, knowing that our training has paid
+        off. But this is just the beginning of my journey. I'm curious about what
+        Tristan has in store for me next. What quests and challenges will he offer
+        to help me keep progressing? Anticipation and uncertainty mingle within me.
+    - name: Me
+      dialogueTxt:
+      - Off to the Guild I go, my trusty monster by my side. I'm eager to share our
+        triumph with Tristan and show him that I'm prepared to take on whatever challenges
+        lie ahead. The powerful monsters and hidden treasures are just stepping stones
+        on the path to becoming the most skilled trainer. I'm committed to following
+        this path, one step at a time.
+  - idDialogue: 3
+    playerStop: 1
+    scenes:
+    - name: Tristan
+      dialogueTxt:
+      - Take a seat, young trainer. I have some advice to offer.
+    - name: Tristan
+      dialogueTxt:
+      - 'You''ve just taken the first step in your adventure, and that''s impressive.
+        But remember, every victory and every challenge you overcome brings you closer
+        to your ultimate goal: becoming a skilled trainer.'
+    - name: Me
+      dialogueTxt:
+      - ' I understand, Tristan. I''m ready to work hard to achieve that.'
+    - name: Tristan
+      dialogueTxt:
+      - Good to hear. Your monster is a powerful partner, but it's crucial to develop
+        a deep bond with it. The better you understand its abilities and behaviors,
+        the more effective you'll be in battles.
+    - name: Me
+      dialogueTxt:
+      - I'll definitely take the time to get to know it better.
+    - name: Tristan
+      dialogueTxt:
+      - Perfect. And don't forget to visit the market regularly to acquire useful
+        equipment and items that will support you on your quests. Planning and preparation
+        are the keys to success.
+    - name: Me
+      dialogueTxt:
+      - Thanks for the wise advice, Tristan. I'll keep that in mind for my upcoming
+        adventures.
+    - name: Tristan
+      dialogueTxt:
+      - You're welcome, young trainer. If you have any questions or concerns, don't
+        hesitate to ask me. I'm here to help you grow and reach your full potential.
+    - name: Tristan
+      dialogueTxt:
+      - Good luck in your future quests, and remember that perseverance is key to
+        overcoming obstacles.
+  - idDialogue: 4
+    playerStop: 0
+    scenes:
+    - name: Me
+      dialogueTxt:
+      - The next dungeon is calling, and I'm heading there with confidence. After
+        breezing through the last one, I'm ready for new challenges. Meeting powerful
+        monsters is exhilarating, each battle is a chance to learn and grow. I'll
+        heed Tristan's advice, plan carefully, and persevere. Every victory brings
+        me closer to becoming a skilled trainer. Mighty monsters await, and I'm determined
+        to face and conquer them.
+  - idDialogue: 5
+    playerStop: 0
+    scenes:
+    - name: Me
+      dialogueTxt:
+      - ' With a hoard of materials at my disposal, it''s time to channel my inner
+        craftsman. The prospect of fashioning something meaningful from these components
+        is invigorating. Each piece holds a story, a testament to battles fought
+        and challenges conquered.'
+    - name: Me
+      dialogueTxt:
+      - Yet, crafting isn't a guaranteed success; it's a blend of skill and creativity.
+        Uncertainty lingers, but so does the excitement of the unknown. Just like
+        my journey as a trainer, this process demands patience and resilience. Setbacks
+        are stepping stones, and I'm ready to embrace the challenge, refine my skills,
+        and transform these materials into something extraordinary.
+  - idDialogue: 6
+    playerStop: 0
+    scenes:
+    - name: ???
+      dialogueTxt:
+      - Excuse me are you the new trainer?
+    - name: Me
+      dialogueTxt:
+      - Yes, that's me. Can I help you?
+    - name: Cloe
+      dialogueTxt:
+      - Perfect, I've been sent by Tristan, the guild master. He asked me to find
+        you. He has a special quest he'd like you to undertake. My name is Chloe
+    - name: Me
+      dialogueTxt:
+      - Tristan? A special quest? I'm honored that he's considering me. Could you
+        tell me more about this quest?
+    - name: Cloe
+      dialogueTxt:
+      - Unfortunately, I don't have all the details, but Tristan is waiting for you
+        at the guild. He mentioned it's important and he needs your skills. He'll
+        give you more information once you're there.
+    - name: Me
+      dialogueTxt:
+      - Understood, I'll head to the guild right away. Thank you for letting me know.
+  - idDialogue: 7
+    playerStop: 0
+    scenes:
+    - name: Me
+      dialogueTxt:
+      - Hello Tristan, you wanted to see me?
+    - name: Tristan
+      dialogueTxt:
+      - Ah, Young Trainer, yes, that's correct. I have a special quest to entrust
+        you with. We need a rare and powerful ore to reinforce our defenses. It's
+        the Starshard Ore, known for containing exceptional magical energy.
+    - name: Me
+      dialogueTxt:
+      - That sounds impressive. Where can I find it?
+    - name: Tristan
+      dialogueTxt:
+      - Indeed, it's a precious resource. It's said to be found deep within a hidden
+        cave atop Crystal Mountain. However, this quest won't be without danger.
+        The cave is inhabited by powerful creatures and magical traps.
+    - name: Me
+      dialogueTxt:
+      - Understood, Tristan. I'm ready to take on the challenge. What preparations
+        should I make before setting out?
+    - name: Tristan
+      dialogueTxt:
+      - Make sure you're well-equipped, both in terms of armor and potions. The creatures
+        in the cave can be tough. Also, take a map to help you navigate inside. And
+        most importantly, be cautious and use your wits to avoid traps.
+  - idDialogue: 8
+    playerStop: 1
+    scenes:
+    - name: Me
+      dialogueTxt:
+      - Hi, I've heard rumors about a place called the Graveyard Crypt. Could you
+        tell me more about it?
+    - name: Tristan
+      dialogueTxt:
+      - Ah, the Graveyard Crypt, a place shrouded in mystery and tales of the past.
+        It's an ancient underground tomb located on the outskirts of our town.
+    - name: Me
+      dialogueTxt:
+      - What can you tell me about its history?
+    - name: Tristan
+      dialogueTxt:
+      - Legend has it that the Graveyard Crypt was built centuries ago by a long-lost
+        civilization. It's said to hold the remains of powerful sorcerers and warriors
+        from a bygone era. Some even claim that treasures of great value are hidden
+        within its depths.
+    - name: Me
+      dialogueTxt:
+      - Sounds intriguing. Is it dangerous to explore?
+    - name: Tristan
+      dialogueTxt:
+      - Oh, absolutely. The Graveyard Crypt is not for the faint of heart. It's infested
+        with undead creatures, cursed spirits, and intricate traps. Many adventurers
+        have entered seeking glory or riches, but few have returned.
+    - name: Me
+      dialogueTxt:
+      - I see. So, is there anything else I should know before I consider venturing
+        into the Graveyard Crypt?
+    - name: Tristan
+      dialogueTxt:
+      - If you're thinking of exploring, make sure you're well-prepared. Stock up
+        on healing potions and bring a source of light, as darkness fills the crypt.
+        And remember, even though it's perilous, the Graveyard Crypt holds secrets
+        that might be worth discovering.
+    - name: Me
+      dialogueTxt:
+      - Thank you for the information. I'll make sure to be cautious if I decide
+        to enter the Graveyard Crypt.
+  - idDialogue: 10
+    playerStop: 0
+    scenes:
+    - name: Me
+      dialogueTxt:
+      - Tristan, I've heard about a researcher located in a dangerous area, filled
+        with demons. I believe we should meet with them to gather valuable information.
+    - name: "Clo\xE9"
+      dialogueTxt:
+      - A researcher in a demon-infested zone, you say? That sounds risky, but if
+        their knowledge can aid us, it might be worth venturing into that area. Are
+        you prepared for such an undertaking?
+    - name: Me
+      dialogueTxt:
+      - Absolutely, Tristan. I'm ready to face the dangers to obtain the information
+        we need.
+    - name: "Clo\xE9"
+      dialogueTxt:
+      - Very well. Make sure you're well-prepared. Take healing potions and stay
+        vigilant against the demons. Our goal is to secure this information safely.
+        Let's proceed with caution.
+    - name: Me
+      dialogueTxt:
+      - Understood, I'll get prepared right away. Let's go find this researcher and
+        uncover what they know.
+    - name: "Clo\xE9"
+      dialogueTxt:
+      - Good luck, young trainer. May your bravery guide you through this trial,
+        and may you return safely with the information we seek.
+  - idDialogue: 10
+    playerStop: 1
+    scenes:
+    - name: Albert
+      dialogueTxt:
+      - Ah, you must be the young trainer Tristan told me about. I'm Albert, the
+        researcher.
+    - name: Me
+      dialogueTxt:
+      - Nice to meet you, Albert. Tristan mentioned that you might have important
+        information. What can you tell me about this dangerous area and the demons
+        inhabiting it?
+    - name: Albert
+      dialogueTxt:
+      - Of course, but first, let me explain why I'm here. I'm interested in studying
+        rare and mysterious materials found in this region. If you can provide me
+        with certain materials, I might be able to give you valuable information
+        in return.
+    - name: Me
+      dialogueTxt:
+      - Understood, Albert. What types of materials are you looking for?
+    - name: Albert
+      dialogueTxt:
+      - Currently, I would need samples of demon crystals and demon wings. These
+        are crucial elements for my research. If you can bring me these materials,
+        I could tell you all I know about the demons in the area.
+    - name: Me
+      dialogueTxt:
+      - That sounds fair. I'll set out to find these materials and bring them to
+        you as soon as possible.
+    - name: Albert
+      dialogueTxt:
+      - Perfect, I'll be waiting here. Just remember, caution is key in that area.
+        Good luck, young trainer.
+    - name: Me
+      dialogueTxt:
+      - Thank you, Albert. I'll do my best to obtain those materials and return swiftly.
+  - idDialogue: 11
+    playerStop: 1
+    scenes:
+    - name: Albert
+      dialogueTxt:
+      - Ah, welcome back, young trainer. Do you have the materials I requested?
+    - name: Me
+      dialogueTxt:
+      - Indeed, Albert. I've gathered the demon crystals and demon wings you needed.
+    - name: Albert
+      dialogueTxt:
+      - Excellent work, my friend. These materials will greatly contribute to my
+        research. As promised, I have something for you in return. Here, take this
+        rare amulet. It's imbued with protective magic that can aid you in your future
+        encounters.
+    - name: Me
+      dialogueTxt:
+      - Wow, thank you, Albert. This amulet is truly remarkable. I appreciate your
+        generosity.
+    - name: Albert
+      dialogueTxt:
+      - It's the least I can do to show my gratitude for your assistance. Remember,
+        knowledge is a powerful tool. If you ever need more information or require
+        my help again, don't hesitate to ask.
+    - name: Me
+      dialogueTxt:
+      - I will keep that in mind, Albert. Thanks again for your help and the valuable
+        item.
+    - name: Albert
+      dialogueTxt:
+      - You're welcome, young trainer. Now, go forth with this newfound protection
+        and continue your journey with confidence. May your path be filled with success
+        and discoveries.
+  - idDialogue: 12
+    playerStop: 0
+    scenes:
+    - name: "Clo\xE9"
+      dialogueTxt:
+      - Hey, have you heard the rumors about the nearby cave?
+    - name: Me
+      dialogueTxt:
+      - "Hey Clo\xE9! Yes, I've heard that a tremendously powerful monster has appeared
+        there. People are talking about this mysterious creature that suddenly showed
+        up."
+    - name: "Clo\xE9"
+      dialogueTxt:
+      - Absolutely, it's quite the situation. We might want to investigate and see
+        what's going on.
+    - name: Me
+      dialogueTxt:
+      - Definitely, it could be a unique opportunity for us as trainers. But let's
+        proceed with caution, that monster might be much stronger than what we're
+        used to.
+    - name: "Clo\xE9"
+      dialogueTxt:
+      - You're right, being cautious is key. Maybe we could gather a team of experienced
+        trainers to increase our chances of success.
+    - name: Me
+      dialogueTxt:
+      - Perfect. I'll start reaching out, and we can plan a meeting. Let's stay focused
+        and do our best to unravel this mystery.
+    - name: "Clo\xE9"
+      dialogueTxt:
+      - You're welcome, young trainer. Now, go forth with this newfound protection
+        and continue your journey with confidence. May your path be filled with success
+        and discoveries.
+    - name: Me
+      dialogueTxt:
+      - Alright, I'll talk to a few trainers and get things organized. Let's stay
+        in touch and coordinate our efforts. Together, we might just overcome this
+        challenge and uncover what's lurking inside that cave.
+  - idDialogue: 13
+    playerStop: 1
+    scenes:
+    - name: Me
+      dialogueTxt:
+      - Albert, have you noticed anything unusual lately?
+    - name: Albert
+      dialogueTxt:
+      - Actually, yes. I've observed a drastic change in the landscape and the ambient
+        energy. It's been quite concerning.
+    - name: Me
+      dialogueTxt:
+      - What do you mean by "drastic change"?
+    - name: Albert
+      dialogueTxt:
+      - The skies have darkened, and a powerful aura is emanating from an ancient
+        cave not far from here. I fear this might be a sign of the legendary dragon's
+        appearance.
+    - name: Me
+      dialogueTxt:
+      - The legendary dragon? That's both incredible and intimidating. What should
+        we do?
+    - name: Albert
+      dialogueTxt:
+      - We should proceed with caution. Legendary dragons are of immeasurable power.
+        I recommend gathering information, forming a strong team, and preparing thoroughly
+        before venturing into that cave.
+    - name: Me
+      dialogueTxt:
+      - That's wise. We shouldn't underestimate this situation. I'll talk to other
+        trainers and prepare ourselves for a potential encounter with the legendary
+        dragon.
+    - name: Albert
+      dialogueTxt:
+      - Good idea. Let's make sure to prepare adequately. We must be ready to face
+        the challenge and gather as much information as possible about this occurrence.
+  - idDialogue: 14
+    playerStop: 0
+    scenes:
+    - name: Me
+      dialogueTxt:
+      - Hey, Albert, it's been quite a journey, hasn't it?
+    - name: Tristan
+      dialogueTxt:
+      - Indeed, it has. We've faced challenges, uncovered secrets, and grown stronger
+        along the way.
+    - name: Me
+      dialogueTxt:
+      - And now, it feels like we've come to the end of our adventure. The final
+        battle awaits.
+    - name: Tristan
+      dialogueTxt:
+      - Yes, the time has come to confront the ultimate challenge. The fate of our
+        world rests upon our actions.
+    - name: Me
+      dialogueTxt:
+      - ' I want to thank you, Tristan,, for being by my side throughout this entire
+        journey. Your guidance and knowledge have been invaluable.'
+    - name: Tristan
+      dialogueTxt:
+      - The pleasure was mine. You've shown remarkable determination and skill. Together,
+        we've overcome every obstacle.
+    - name: Me
+      dialogueTxt:
+      - As we stand on the precipice of this final battle, I can't help but feel
+        a mix of excitement and apprehension.
+    - name: Tristan
+      dialogueTxt:
+      - That's completely natural. Remember, everything we've learned and experienced
+        has led us to this moment. Believe in yourself and your abilities.
+    - name: Me
+      dialogueTxt:
+      - ' I will, Tristan.. Let''s give it our all and see this through to the end.
+        Whatever happens, I''m proud of what we''ve accomplished.'
+    - name: Tristan
+      dialogueTxt:
+      - And I'm proud to have been part of your journey. Now, let's go face the final
+        challenge and bring this epic adventure to a close.
+    - name: Me
+      dialogueTxt:
+      - Let's do it, Albert. For the sake of our world and all that we've fought
+        for. The game is coming to an end, but our legacy will live on.

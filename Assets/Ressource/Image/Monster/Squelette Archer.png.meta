@@ -1,0 +1,661 @@
+fileFormatVersion: 2
+guid: 3a7969fdf165bc14c8c7e52a6f4cedb3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1190526200695236447
+    second: Squelette Archer_0
+  - first:
+      213: -8058810154204243431
+    second: Squelette Archer_1
+  - first:
+      213: -5752291785809975103
+    second: Squelette Archer_2
+  - first:
+      213: 2239448635261062808
+    second: Squelette Archer_3
+  - first:
+      213: 272394437407410397
+    second: Squelette Archer_4
+  - first:
+      213: 100407835789319475
+    second: Squelette Archer_5
+  - first:
+      213: -1203698815155978888
+    second: Squelette Archer_6
+  - first:
+      213: -279890931612635065
+    second: Squelette Archer_7
+  - first:
+      213: 8471090869925012861
+    second: Squelette Archer_8
+  - first:
+      213: 6989856771091333095
+    second: Squelette Archer_9
+  - first:
+      213: -7340477409126441704
+    second: Squelette Archer_10
+  - first:
+      213: -8028236167315115305
+    second: Squelette Archer_11
+  - first:
+      213: -5395199658367771678
+    second: Squelette Archer_12
+  - first:
+      213: 2562705092214080906
+    second: Squelette Archer_13
+  - first:
+      213: -5563451235102109102
+    second: Squelette Archer_14
+  - first:
+      213: -5120711159516923599
+    second: Squelette Archer_15
+  - first:
+      213: 6573920045015922366
+    second: Squelette Archer_16
+  - first:
+      213: 5707303204782102734
+    second: Squelette Archer_17
+  - first:
+      213: -7528408925224151263
+    second: Squelette Archer_18
+  - first:
+      213: -6861905651046668668
+    second: Squelette Archer_19
+  - first:
+      213: 1528357451941622656
+    second: Squelette Archer_20
+  - first:
+      213: -1532076403227914372
+    second: Squelette Archer_21
+  - first:
+      213: 8898229934775645555
+    second: Squelette Archer_22
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Squelette Archer_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 31
+        width: 133
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f572c389549958010800000000000000
+      internalID: 1190526200695236447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette Archer_1
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 32
+        width: 121
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a5856bcda592090800000000000000
+      internalID: -8058810154204243431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette Archer_2
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 33
+        width: 118
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c826660911cb20b0800000000000000
+      internalID: -5752291785809975103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette Archer_3
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 35
+        width: 120
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e087d2bae141f10800000000000000
+      internalID: 2239448635261062808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette Archer_4
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 30
+        width: 135
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd806703c4db7c300800000000000000
+      internalID: 272394437407410397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette Archer_5
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 32
+        width: 120
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d53e80568b46100800000000000000
+      internalID: 100407835789319475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette Archer_6
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 32
+        width: 128
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87db11a1e4a9b4fe0800000000000000
+      internalID: -1203698815155978888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette Archer_7
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 33
+        width: 122
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740306d3ea0ad1cf0800000000000000
+      internalID: -279890931612635065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette Archer_8
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 34
+        width: 131
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d756fe1b34c5f8570800000000000000
+      internalID: 8471090869925012861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette Archer_9
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 33
+        width: 123
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eff1cf03b5f00160800000000000000
+      internalID: 6989856771091333095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette Archer_10
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 32
+        width: 126
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d1d3b10b2612a90800000000000000
+      internalID: -7340477409126441704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette Archer_11
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 34
+        width: 122
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d23d32cdb9f59090800000000000000
+      internalID: -8028236167315115305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette Archer_12
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 33
+        width: 127
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb1ea6ee766025b0800000000000000
+      internalID: -5395199658367771678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette Archer_13
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 529
+        width: 166
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85418d14be809320800000000000000
+      internalID: 2562705092214080906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette Archer_14
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 528
+        width: 159
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252d78ef396aac2b0800000000000000
+      internalID: -5563451235102109102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette Archer_15
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 529
+        width: 148
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1397d93c4549fe8b0800000000000000
+      internalID: -5120711159516923599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette Archer_16
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 528
+        width: 144
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb67ef863714b3b50800000000000000
+      internalID: 6573920045015922366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette Archer_17
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 526
+        width: 138
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec85c72b60a643f40800000000000000
+      internalID: 5707303204782102734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette Archer_18
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 270
+        width: 132
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127522048f7b58790800000000000000
+      internalID: -7528408925224151263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette Archer_19
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 270
+        width: 139
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4862e139a2d95c0a0800000000000000
+      internalID: -6861905651046668668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette Archer_20
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 266
+        width: 138
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0833dc44101d53510800000000000000
+      internalID: 1528357451941622656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette Archer_21
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 271
+        width: 157
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f87d8e0a8fcbae0800000000000000
+      internalID: -1532076403227914372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette Archer_22
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 271
+        width: 193
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375bc081bfcdc7b70800000000000000
+      internalID: 8898229934775645555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
