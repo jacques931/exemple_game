@@ -1,3 +1,5 @@
+Pour voir le code allez dans Asset->Ressource->Script
+
 Projet GitHub - Utilisation avec Unity 2020.3.43f1
 
 Bienvenue dans le référentiel GitHub de notre projet! Pour assurer une expérience de développement fluide et garantir la compatibilité, veuillez suivre les instructions ci-dessous pour configurer votre environnement Unity.
