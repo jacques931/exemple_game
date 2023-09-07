@@ -1,4 +1,4 @@
-Pour voir le code allez dans Asset->Ressource->Script
+Pour voir le code allez dans Assets->Ressource->Script
 
 Projet GitHub - Utilisation avec Unity 2020.3.43f1
 
